@@ -18,6 +18,26 @@ print_hi('Tom')
 #=> prints 'Hi, Tom' to STDOUT.
 {% endhighlight %}
 
+
+{% highlight html %}
+  <div class="my-class">
+    <h1>This is HTML highlighting</h1>
+  </div>
+{% endhighlight %}
+
+{% highlight scss %}
+pre {
+  padding: 8px 12px;
+  //overflow-x: auto;
+
+  > code {
+    border: 0;
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+{% endhighlight %}
+
 Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
 
 [jekyll-docs]: http://jekyllrb.com/docs/home
