@@ -6,11 +6,17 @@
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
   <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
 
+  <!-- STYLES -->
   <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
 
+  <!-- SCRIPTS -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="{{ "/assets/scripts.js" | relative_url }}"></script>
+
+  <!-- FONTS -->
+  <script src="https://use.typekit.net/jlv1vkr.js"></script>
+  <script>try{Typekit.load({ async: true });}catch(e){}</script>
 
   {% include google-analytics.html %}
 </head>

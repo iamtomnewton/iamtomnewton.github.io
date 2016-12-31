@@ -1,0 +1,52 @@
+.content-block {
+  width: 100%;
+  height: 70vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.content-block__cover {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-color: $brand-color;
+  -webkit-transition: -webkit-transform 5s ease-in-out;
+  transition: -webkit-transform 5s ease-in-out;
+  transition: transform 5s ease-in-out;
+  transition: transform 5s ease-in-out,-webkit-transform 5s ease-in-out;
+
+  &:hover {
+    -webkit-transform:scale(1.05);
+    transform:scale(1.05)
+  }
+}
+
+.content-block__copy {
+  position: absolute;
+  z-index: 10;
+  bottom: 20px;
+  left: 5vw;
+  right: 8vw;
+  color: #fff;
+}
+
+.content-block__copy--dark {
+  @extend .content-block__copy;
+  color: $grey-color-dark;
+}
+
+.content-block__title {
+  font-size: remify(55px);
+  max-width: 700px;
+}
+
+.content-block__client {
+  margin-bottom: 0;
+  font-weight: 600;
+  text-transform: uppercase;
+}

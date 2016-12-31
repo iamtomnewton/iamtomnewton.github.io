@@ -2,16 +2,20 @@
 layout: default
 ---
 
-{% assign image = post.cover %}
-
 <div class="home">
 
   {% for post in site.work %}
-  <a href="{{ post.url | prepend: site.baseurl }}">
-    <div class="media image" style="background-position: 20% 50%; background-size: cover; background-image: url( {{ site.baseurl }}{{ include.cover }} );"></div>
-    <div class="copy">
-      <h4 style="transform: matrix(1, 0, 0, 1, 0, 0);">{{ post.title }}</h4>
+  <section class="content-block">
+    <a href="{{ post.url }}">
+      <div class="content-block__cover" {% if post.cover %}style="background-image: url( {{ post.cover }} );" {% endif %} {% if post.background %}style="background-color: #{{ post.background }};" {% endif %}></div>
+      <div
+      {% if post.color == 'dark' %} class="content-block__copy--dark"
+      {% else %} class="content-block__copy" {% endif %}>
+      {% if post.client %}<p class="content-block__client">{{ post.client }}</p>{% endif %}
+      <h2 class="content-block__title">{{ post.title }}</h2>
     </div>
   </a>
-  {% endfor %}
+</section>
+{% endfor %}
+
 </div>
