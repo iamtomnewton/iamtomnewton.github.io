@@ -10,7 +10,7 @@ collections:
     output: true
   work:
     title: Work
-    output: false
+    output: true
     permalink: "/:title/"
 defaults:
 - scope:
