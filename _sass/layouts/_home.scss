@@ -43,18 +43,24 @@
 .content-block__copy--dark {
   @extend .content-block__copy;
   color: $grey-color-dark;
+
+  .content-block__title {
+    text-shadow: 2px 2px 0px #fff;
+  }
 }
 
 .content-block__client {
   margin-bottom: 0;
   font-weight: 600;
   text-transform: uppercase;
+  font-size: 14px;
 }
 
 .content-block__title {
   font-size: remify(55px);
   max-width: 700px;
   margin-bottom: 0;
+  text-shadow: 2px 2px 0px $grey-color;
 
   @include respond-to-min($med) {
     margin-bottom: $spacing-unit / 2;
