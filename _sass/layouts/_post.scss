@@ -1,0 +1,21 @@
+.post {
+  h1, h2, h3, h4, h5, h6 {
+    margin-top: $spacing-unit;
+  }
+
+  img {
+    width: -webkit-calc(100% + #{$spacing-unit});
+    width:         calc(100% + #{$spacing-unit});
+    margin: $spacing-unit / 2 auto;
+    margin-left: -$spacing-unit / 2;
+    max-width: none;
+    @include clearfix;
+
+    @include respond-to-min($large) {
+      width: -webkit-calc(100% + (#{$spacing-unit} * 4));
+      width:         calc(100% + (#{$spacing-unit} * 4));
+      margin-left: -$spacing-unit * 2;
+    }
+  }
+
+}

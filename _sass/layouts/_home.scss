@@ -42,7 +42,7 @@
 
 .content-block__copy--dark {
   @extend .content-block__copy;
-  color: $grey-color-dark;
+  color: $text-color;
 
   .content-block__title {
     text-shadow: 2px 2px 0px #fff;
