@@ -1,8 +1,13 @@
 .content-block {
   width: 100%;
-  height: 70vh;
+  height: 90vh;
   position: relative;
   overflow: hidden;
+
+  @include respond-to-min($med) {
+    height: 75vh;
+    min-height: 500px;
+  }
 }
 
 .content-block__cover {
@@ -21,8 +26,8 @@
   transition: transform 5s ease-in-out,-webkit-transform 5s ease-in-out;
 
   &:hover {
-    -webkit-transform:scale(1.05);
-    transform:scale(1.05)
+    -webkit-transform:scale(1.075);
+    transform:scale(1.075)
   }
 }
 
@@ -40,13 +45,18 @@
   color: $grey-color-dark;
 }
 
-.content-block__title {
-  font-size: remify(55px);
-  max-width: 700px;
-}
-
 .content-block__client {
   margin-bottom: 0;
   font-weight: 600;
   text-transform: uppercase;
+}
+
+.content-block__title {
+  font-size: remify(55px);
+  max-width: 700px;
+  margin-bottom: 0;
+
+  @include respond-to-min($med) {
+    margin-bottom: $spacing-unit / 2;
+  }
 }
