@@ -2,8 +2,16 @@
 layout: default
 ---
 
+{% assign image = post.cover %}
+
 <div class="home">
 
-
-
+  {% for post in site.work %}
+  <a href="{{ post.url | prepend: site.baseurl }}">
+    <div class="media image" style="background-position: 20% 50%; background-size: cover; background-image: url( {{ site.baseurl }}{{ include.cover }} );"></div>
+    <div class="copy">
+      <h4 style="transform: matrix(1, 0, 0, 1, 0, 0);">{{ post.title }}</h4>
+    </div>
+  </a>
+  {% endfor %}
 </div>
