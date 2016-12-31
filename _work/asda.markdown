@@ -6,3 +6,4 @@ cover: "/uploads/asda.jpg"
 background-color: "#78BE20"
 copy-color: dark
 ---
+
