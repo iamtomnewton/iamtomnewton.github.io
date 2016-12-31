@@ -6,3 +6,4 @@ cover: "/uploads/finery.jpg"
 color: "#fc4237"
 copy-color: light
 ---
+
