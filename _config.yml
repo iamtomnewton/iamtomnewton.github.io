@@ -45,4 +45,4 @@ sass:
 permalink: "/blog/:title/"
 
 disqus:
-    shortname: iamtomnewton
+  shortname: iamtomnewton
