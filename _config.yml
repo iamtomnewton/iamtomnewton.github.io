@@ -41,14 +41,15 @@ permalink: "/blog/:title/"
 
 
 defaults:
-- scope:
-    path: ''
-    type: posts
-  values:
-    layout: post
   -
     scope:
-      path: ''
-      type: work
+      path: ""
+      type: "posts"
     values:
-      layout: default
+      layout: "post"
+  -
+    scope:
+      path: "work"
+      type: "work" # previously `page` in Jekyll 2.2.
+    values:
+      layout: "work" # overrides previous default layout
