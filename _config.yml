@@ -23,7 +23,7 @@ description: 'Write an awesome description for your new site here. You can edit 
   results) and in your feed.xml site description.
 
 '
-baseurl: 
+baseurl:
 url: iamtomnewton.com
 twitter_username: iamtomnewton
 github_username: iamtomnewton
@@ -36,4 +36,13 @@ exclude:
 - Gemfile.lock
 sass:
   style: expanded
+
 permalink: "/blog/:title/"
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
