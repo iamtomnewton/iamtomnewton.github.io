@@ -7,3 +7,4 @@ cover: "/uploads/manolo.jpg"
 background-color: "#fff"
 copy: dark
 ---
+
