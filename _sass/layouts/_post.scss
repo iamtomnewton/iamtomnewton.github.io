@@ -3,6 +3,10 @@
     margin-top: $spacing-unit;
   }
 
+  h1 {
+    margin-bottom: $spacing-unit;
+  }
+
   img {
     width: -webkit-calc(100% + #{$spacing-unit});
     width:         calc(100% + #{$spacing-unit});
