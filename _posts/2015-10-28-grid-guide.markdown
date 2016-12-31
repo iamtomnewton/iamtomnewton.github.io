@@ -12,60 +12,69 @@ There is an underlying principle to designing layouts effectively and that is th
 
 One of the simplest grids that you most likely use everyday is a simple piece of lined paper. It’s tough to write neatly on a blank piece of paper, the lines guide you to write better and thusly create a better document. The same principle applies to grids in design, it’s hard to create a layout without any guidance as elements won’t have structure.
 
-# Grid considerations
+## Grid considerations
 
 As with all systems in design, a grid should focus on problem solving first and aesthetics second. A grid is the definition of a framework, it’s there as a tool to guide design and placement of elements. But it’s also there to enhance the user's experience by adding order and predictability to websites.
 
 Grids are not one size fits all, your grid should be based on the problem it’s there to solve, which is fundamentally organising content. There are a few things to consider before working out your grid.
 
-## Technical Constraints and Guidelines.
+### Technical Constraints and Guidelines.
+
 This mainly applies to Apps, for example [Material Design](https://www.google.com/design/spec/layout/metrics-keylines.html#metrics-keylines-baseline-grids) already has it’s own grid system that uses an 8dp square baseline grid for components, except type and toolbar iconography, which align to a 4dp square baseline grid.
 
 ![MaterialDesign-Grid.jpg](/uploads/MaterialDesign-Grid.jpg)
 
 The web is more of a wildcard on grid rules but considerations such as how the grid works responsively need to be addressed.
 
-## Business Constraints
+### Business Constraints
+
 Branding is the main constraint from a business sense, there’s no point in making a grid that breaks when you put existing brand assets into it. 9 times out of 10 a brand will have a logo that has specific spacing requirements, this is a good unit to use for your grid.
 
-## Content Constraints
+### Content Constraints
+
 You need to address what the content is likely to be before working out a grid to constrain it. Is it an article? Is it a shop? Does it have fixed width ad units? Are there elements that may change size? etc
 
 These constraint considerations may seem annoying at first but they can actually make it easier to build your grid system. It’s generally a benefit to start with constraints like logos and ad units as a baseline to build around. Or better yet have a grid system already in place like in App design.
 
-# Grid terminology
+## Grid terminology
 
 Grids aren’t as simple as columns and baselines. In fact most books on the subject tend to differ in their terminology but overall they tend to describe the same set of things.
 
-## Units
+### Units
+
 Units are the smallest vertical division of the page, they’re usually too small to house any meaningful content but are a sort of grid to build your grid upon!
 
 ![UNITS-–-16.png](/uploads/UNITS-%E2%80%93-16.png)
 
-## Columns
+### Columns
+
 Columns are sets of units grouped together to create workable areas for content. For example, a base twelve unit grid system can be grouped into two columns of six, three columns of four or six columns of two. The latter being the more diverse measure.
 
 ![COLUMNS-–-16.png](/uploads/COLUMNS-%E2%80%93-16.png)
 
-## Regions
+### Regions
+
 Regions are groups of columns that form the basis of a page layout. For example, a base twelve unit grid system with a six column measure can be separated into two regions, one of four columns and one of two columns. This makes up a basic page layout of an article and aside.
 
 ![REGIONS-–-16.png](/uploads/REGIONS-%E2%80%93-16.png)
 
-## Baseline
+### Baseline
+
 A baseline is a typographic system which refers to the horizontal lines letterforms sit on. It’s a useful tool to include in your grids as it provides vertical rhythm for content.
 
 ![BASELINE.png](/uploads/BASELINE.png)
 
-## Fields
+### Fields
+
 Fields are horizontal divisions of the page. They use the baseline grid as a guide to place elements vertically and divide sections equally.
 
 ![FIELDS-–-16.png](/uploads/FIELDS-%E2%80%93-16.png)
 
-## Gutters
+### Gutters
+
 Gutters are the empty spaces between elements, either vertically between units, columns and regions or horizontally between fields.
 
-# How to build a grid
+## How to build a grid
 
 Now that you have a good understanding of grid systems and things to consider before creating a grid, the actual art of creating a grid is fairly simple.
 
@@ -133,7 +142,7 @@ The aim is to get your grid to work by using the simplest grid possible (least n
 
 Of course in production we can use Sass mixins or grid frameworks such as [Susy](http://susy.oddbird.net/) or [Jeet](http://jeet.gs/) to recreate our ideal grid in a responsive environment but this method works well in working out a grid for our initial design documents.
 
-# Further reading and resources
+## Further reading and resources
 
 [Ordering Disorder](http://www.amazon.co.uk/dp/0321703537) by [Khoi Vinh](https://twitter.com/khoi) is a great read about creating grids for the web and goes into much more in-depth practical examples than I have.
 
