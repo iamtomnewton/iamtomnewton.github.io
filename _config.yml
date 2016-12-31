@@ -18,13 +18,18 @@ defaults:
     type: posts
   values:
     layout: post
+- scope:
+    path: work
+    type: work
+  values:
+    layout: work
 email: hello@iamtomnewton.com
 description: 'Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for Google search
   results) and in your feed.xml site description.
 
 '
-baseurl:
+baseurl: 
 url: iamtomnewton.com
 twitter_username: iamtomnewton
 github_username: iamtomnewton
@@ -38,18 +43,3 @@ exclude:
 sass:
   style: expanded
 permalink: "/blog/:title/"
-
-
-defaults:
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-  -
-    scope:
-      path: "work"
-      type: "work" # previously `page` in Jekyll 2.2.
-    values:
-      layout: "work" # overrides previous default layout
