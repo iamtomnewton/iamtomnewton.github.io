@@ -7,9 +7,9 @@ layout: default
   {% for post in site.work %}
   <section class="content-block">
     <a href="{{ post.url }}">
-      <div class="content-block__cover" {% if post.cover %}style="background-image: url( {{ post.cover }} );" {% endif %} {% if post.background %}style="background-color: #{{ post.background }};" {% endif %}></div>
+      <div class="content-block__cover" {% if post.cover %}style="background-image: url( {{ post.cover }} );" {% endif %} {% if post.color %}style="background-color: #{{ post.color }};" {% endif %}></div>
       <div
-      {% if post.color == 'dark' %} class="content-block__copy--dark"
+      {% if post.copy-color == 'dark' %} class="content-block__copy--dark"
       {% else %} class="content-block__copy" {% endif %}>
       {% if post.client %}<p class="content-block__client">{{ post.client }}</p>{% endif %}
       <h2 class="content-block__title">{{ post.title }}</h2>
