@@ -2,9 +2,11 @@
 layout: default
 ---
 
+  {% assign collection = site.work | sort: 'position' %}
+
 <div class="home">
 
-  {% for post in site.work %}
+  {% for post in collection %}
   <section class="content-block">
     <a href="{{ post.url }}">
       <div class="content-block__cover" style="background-color: {{ post.background-color }};  {% if post.cover %} background-image: url( {{ post.cover }} );{% endif %}"></div>
