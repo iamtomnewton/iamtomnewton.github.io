@@ -5,6 +5,7 @@ categories:
 - design
 - grids
 - tutorial
+layout: post
 ---
 
 There is an underlying principle to designing layouts effectively and that is the humble grid. Grids are everywhere and you’ve most likely not noticed them or paid much attention to them, that’s because a grid isn’t there to be the star of the show. The grid is there to guide you in creating the star.
