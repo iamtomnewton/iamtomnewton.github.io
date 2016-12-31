@@ -1,0 +1,6 @@
+---
+title: Test Post
+date: 2016-12-31 10:56:00 +00:00
+---
+
+This is a test post from Site Leaf
