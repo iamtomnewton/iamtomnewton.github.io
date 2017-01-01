@@ -1,0 +1,57 @@
+.header {
+  position: fixed;
+  top: $spacing-unit;
+  left: $spacing-unit / 2;
+  right: $spacing-unit / 2;
+  transition: top 0.2s ease-in-out;
+  z-index: 20;
+  transition: top 0.2s ease-in-out;
+  background-color: #fff;
+  padding: 5px $spacing-unit;
+  border: 2px solid $brand-color;
+
+  @include respond-to-min($med) {
+    padding: 10px $spacing-unit;
+  }
+}
+
+.nav-up {
+  top: -50px;
+}
+
+.header__logo {
+  font-family: $base-font-family;
+  font-weight: 600;
+  font-size: 22px;
+  display: none;
+}
+
+.header__nav {
+  position: relative;
+  width: 100%;
+  font-size: $small-font-size;
+  @include clearfix;
+
+  @include respond-to-min($small) {
+    left: 2.5vw;
+    width: calc(100% - 5vw);
+  }
+
+  @include respond-to-min($med) {
+    font-size: $base-font-size;
+  }
+}
+
+.nav__list {
+  //float: right;
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-between;
+  margin: 0;
+  margin-bottom: 2px; // Adjusts for embox spacing in font
+}
+
+.nav__item {
+  list-style: none;
+  display: inline-block;
+}
