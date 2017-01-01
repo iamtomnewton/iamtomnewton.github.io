@@ -1,4 +1,10 @@
 .post {
+  padding: $spacing-unit * 2 0;
+
+  @include respond-to-min($med) {
+    padding: $spacing-unit * 3 0;
+  }
+
   h1, h2, h3, h4, h5, h6 {
     margin-top: $spacing-unit;
   }

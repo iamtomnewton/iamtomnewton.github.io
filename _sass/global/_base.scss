@@ -1,6 +1,6 @@
 /**
- * Reset some basic elements
- */
+* Reset some basic elements
+*/
 body, h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, hr,
 dl, dd, ol, ul, figure {
@@ -10,24 +10,20 @@ dl, dd, ol, ul, figure {
 
 
 /**
- * Sets all elements box-sizing to border-box
- */
+* Sets all elements box-sizing to border-box
+*/
 * {
   box-sizing: border-box;
 }
 
 /**
- * Basic styling
- */
+* Basic styling
+*/
 
 html{
   height: 100%;
   width: 100%;
-  font-size: $small-font-size;
-
-  @include respond-to-min($small) {
-    font-size: $base-font-size;
-  }
+  font-size: $base-font-size;
 }
 
 body {
@@ -38,9 +34,9 @@ body {
   background-color: $background-color;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
-     -moz-font-feature-settings: "kern" 1;
-       -o-font-feature-settings: "kern" 1;
-          font-feature-settings: "kern" 1;
+  -moz-font-feature-settings: "kern" 1;
+  -o-font-feature-settings: "kern" 1;
+  font-feature-settings: "kern" 1;
   font-kerning: normal;
   -webkit-font-smoothing: antialiased;
 }
@@ -48,8 +44,8 @@ body {
 
 
 /**
- * Set `margin-bottom` to maintain vertical rhythm
- */
+* Set `margin-bottom` to maintain vertical rhythm
+*/
 h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
 ul, ol, dl, figure {
@@ -59,8 +55,8 @@ ul, ol, dl, figure {
 
 
 /**
- * Images
- */
+* Images
+*/
 img {
   max-width: 100%;
   vertical-align: middle;
@@ -69,8 +65,8 @@ img {
 
 
 /**
- * Figures
- */
+* Figures
+*/
 figure > img {
   display: block;
 }
@@ -82,8 +78,8 @@ figcaption {
 
 
 /**
- * Lists
- */
+* Lists
+*/
 ul, ol {
   margin-left: $spacing-unit;
 }
@@ -98,12 +94,12 @@ li {
 
 
 /**
- * Headings
- */
+* Headings
+*/
 h1, h2, h3, h4, h5, h6 {
-  font-weight: $base-font-weight;
+  font-weight: $heading-font-weight;
   font-family: $heading-font-family;
-  line-height: 1.3;
+  line-height: $heading-line-height;
 }
 
 h1 {
@@ -148,11 +144,13 @@ h4 {
 
 
 /**
- * Links
- */
+* Links
+*/
 a {
   color: $brand-color;
   text-decoration: none;
+  font-weight: 600;
+  //@include transition;
 
   &:visited {
     color: darken($brand-color, 15%);
@@ -167,8 +165,8 @@ a {
 
 
 /**
- * Blockquotes
- */
+* Blockquotes
+*/
 blockquote {
   color: $grey-color;
   border-left: 4px solid $grey-color-light;
@@ -185,8 +183,8 @@ blockquote {
 
 
 /**
- * Code formatting
- */
+* Code formatting
+*/
 pre,
 code {
   font-size: 14px;
@@ -213,8 +211,8 @@ pre {
 
 
 /**
- * Wrapper
- */
+* Wrapper
+*/
 .wrapper {
   max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
   max-width:         calc(#{$content-width} - (#{$spacing-unit}));
@@ -234,8 +232,8 @@ pre {
 
 
 /**
- * Icons
- */
+* Icons
+*/
 .icon > svg {
   display: inline-block;
   vertical-align: middle;

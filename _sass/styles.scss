@@ -1,11 +1,16 @@
 // Define defaults for each variable.
 
-$base-font-family: "Open-Sans", Helvetica, Arial, sans-serif !default;
-$heading-font-family: "VUCA", arial, serif;
+$base-font-family: "Muli", Helvetica, Arial, sans-serif !default;
+$heading-font-family: "Heebo", arial, serif;
+
 $base-font-size:   16px !default;
-$base-font-weight: 400 !default;
 $small-font-size:  $base-font-size * 0.875 !default;
+
+$base-font-weight: 400 !default;
+$heading-font-weight: 800 !default;
+
 $base-line-height: 1.5 !default;
+$heading-line-height: 1.25 !default;
 
 $spacing-unit:     1.875rem !default;
 
@@ -35,5 +40,13 @@ $max: 				  1200px !default;
         "global/fonts",
 
         "layouts/home",
-        "layouts/post"
+        "layouts/post",
+
+        "components/header"
 ;
+
+// font-family: 'Heebo', sans-serif;
+// font-family: 'VUCA', sans-serif;
+
+// font-family: 'Muli', sans-serif;
+// font-family: 'Open Sans', sans-serif;
