@@ -152,9 +152,9 @@ a {
   font-weight: 600;
   //@include transition;
 
-  &:visited {
-    color: darken($brand-color, 15%);
-  }
+  // &:visited {
+  //   color: #551A8B;
+  // }
 
   &:hover {
     color: $text-color;

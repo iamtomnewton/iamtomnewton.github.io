@@ -1,0 +1,12 @@
+.blog-post {
+  padding-bottom: $spacing-unit;
+  border-bottom: 1px solid $grey-color-light;
+
+  &:last-of-type {
+    border-bottom: 0;
+  }
+}
+
+.blog-post p {
+  margin-bottom: 0;
+}
