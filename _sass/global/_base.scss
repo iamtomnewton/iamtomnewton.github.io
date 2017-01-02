@@ -39,9 +39,11 @@ body {
   font-feature-settings: "kern" 1;
   font-kerning: normal;
   -webkit-font-smoothing: antialiased;
-  min-height: 80vh;
 }
 
+main {
+  min-height: 90vh;
+}
 
 
 /**
