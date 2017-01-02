@@ -14,7 +14,7 @@ $( document ).ready(function() {
       hasScrolled();
       didScroll = false;
     }
-  }, 250);
+  }, 300);
 
   function hasScrolled() {
     var st = $(this).scrollTop();
