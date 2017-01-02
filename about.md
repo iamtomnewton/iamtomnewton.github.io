@@ -4,15 +4,11 @@ permalink: "/about/"
 layout: page
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+### Hello, I am Tom Newton, designer and front-end developer 
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jekyll" %} /
-[minima](https://github.com/jekyll/minima)
+I'm located in Manchester where I work as a Design Lead with the awesome folks at [Code Computerlove](https://www.codecomputerlove.com/).
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+I like to share thoughts about design and development on [Twitter](https://twitter.com/iamtomnewton), longer thoughts, tutorials, inspiration and code samples on my blog, snapshots of my current work on [Dribbble](https://dribbble.com/iamtomnewton) and I’d be more than happy to connect with you on [LinkedIn](https://uk.linkedin.com/in/tom-newton-089b9970).
 
 <div class="contact">
   <form method="post" class="form" id="contactForm" action="https://formspree.io/hello@iamtomnewton.com">
