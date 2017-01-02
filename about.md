@@ -8,7 +8,7 @@ layout: page
 
 I'm located in Manchester where I work as a Design Lead with the awesome folks over at [Code Computerlove](https://www.codecomputerlove.com/).
 
-I like to share thoughts about design and development on [Twitter](https://twitter.com/iamtomnewton), longer thoughts, tutorials, inspiration and code samples on my blog, snapshots of my current work on [Dribbble](https://dribbble.com/iamtomnewton) and I’d be more than happy to connect with you on [LinkedIn](https://uk.linkedin.com/in/tom-newton-089b9970).
+I like to share thoughts about design and development on [Twitter](https://twitter.com/iamtomnewton), longer thoughts, tutorials, inspiration and code samples on my [Journal](/blog), snapshots of my current work on [Dribbble](https://dribbble.com/iamtomnewton) and I’d be more than happy to connect with you on [LinkedIn](https://uk.linkedin.com/in/tom-newton-089b9970).
 
 <div class="contact">
   <form method="post" class="form" id="contactForm" action="https://formspree.io/hello@iamtomnewton.com">
