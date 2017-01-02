@@ -139,7 +139,7 @@ h3, .h3 {
 }
 
 h4, .h4 {
-  font-size: $base-font-size * 1.125;
+  font-size: $base-font-size * 1.25;
 }
 
 
@@ -240,5 +240,90 @@ pre {
 
   path {
     fill: $grey-color;
+  }
+}
+
+
+/**
+* Form
+*/
+
+form {
+  margin-top: $spacing-unit;
+}
+
+fieldset {
+  margin-bottom: $spacing-unit / 2;
+}
+
+input, textarea {
+  outline: none;
+  border: 1px solid $text-color;
+  padding: 0 10px;
+  padding-top: -2px;
+  padding-bottom: 2px;
+  width: 100%;
+  transition: border .1s ease-in;
+  -webkit-appearance:none;
+  height: 40px;
+
+  &:focus {
+    border-color: $brand-color;
+  }
+
+  &::-webkit-input-placeholder {
+    opacity: .6;
+  }
+
+  &:-moz-placeholder { /* Firefox 18- */
+    opacity: .6;
+  }
+
+  &::-moz-placeholder {  /* Firefox 19+ */
+    opacity: .6;
+  }
+
+  &:-ms-input-placeholder {
+    opacity: .6;
+  }
+}
+
+textarea {
+  min-height: 150px;
+  margin-bottom: $spacing-unit / 2;
+}
+
+input[type="submit"] {
+  border: none;
+  width: auto;
+  background-color: $brand-color;
+  color: #fff;
+  font-weight: 600;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  &:hover {
+    background-color: $text-color;
+  }
+}
+
+label {
+  font-size: remify(14px);
+  margin-bottom: 5px;
+  display: block;
+  font-weight: 600;
+}
+
+.form-half {
+  width: 100%;
+
+  @include respond-to-min($med) {
+    width: calc(50% - 8px);
+    float: left;
+    margin-right: 16px;
+
+    &:nth-of-type(2n+2) {
+      margin-right: 0;
+    }
   }
 }
