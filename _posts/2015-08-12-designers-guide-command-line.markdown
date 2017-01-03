@@ -1,6 +1,6 @@
 ---
 title: Web Designers guide to the command line (the bits you’ll actually use)
-date: 2017-01-03 10:03:00 +00:00
+date: 2015-08-12 10:03:00 +01:00
 ---
 
 **This guide is based on Mac commands. Windows syntax is slightly different and covered in-depth [here](http://cli.learncodethehardway.org/book/).**
