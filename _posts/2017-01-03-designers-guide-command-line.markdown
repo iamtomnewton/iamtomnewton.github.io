@@ -11,13 +11,13 @@ You will have noticed, either on your own or peeking at a developers screen, tha
 
 The reason a lot of new web technologies use the command line is that it’s **much** easier for developers to write for than creating GUI applications (and getting us involved to design them!) Due to this there has been a boom in very clever and useful programs / technologies that you will likely want to add to your arsenal.
 
-## First things first
+### First things first
 
 The command line is very simple but also very powerful. It’s important that you understand that anything you do in the command line is **irreversible**. There’s no **⌘ + Z** available, once it’s done, it’s done. So tread with a little bit of caution, but it’s unlikely you’ll do something you regret (if you know what you’re doing).
 
 The second thing is that (as I’ve mentioned) the command line is not a GUI. Don’t expect to see any nice icons or drag and drop functionality, it’s just text commands. There isn’t even mouse support, everything is done through the keyboard. It’s the ultimate Minimal Viable Product and doesn’t need to be anything more.
 
-## Let’s get started
+### Let’s get started
 
 When you open the terminal ( *Applications → Utilities → Terminal* ) you’ll see a short line that looks something like this:
 
@@ -33,7 +33,7 @@ Macbook:~ Tom$
 
 The terminal is saying “I am this computer, I am in this folder, you are this person, what do you want me to do?” with a blinking cursor afterwards. This is the prompt. You write commands after the $ symbol that tell the computer to do things (my examples after this start from the $ – Remember, you do not need to type the $ in your commands. Write after it.)
 
-## Where am I?
+### Where am I?
 
 The first command that you should know is **pwd** this stands for **Print Working Directory**. A directory is another name for a folder. It’s exactly the same as using Finder to look through files, each window and level you navigate through in Finder is a directory.
 
@@ -48,7 +48,7 @@ $ pwd
 
 You will use this command very frequently to check if you’re in the correct directory when moving around in the command line (remember there’s no undo available so it’s best to check to make sure where you are from time to time)
 
-## Moving around
+### Moving around
 
 Now you know where you are you need to be able to move back and forth between directories. To do this use a simple command called **cd** this stands for **Change Directory** and where you want to go.
 
@@ -61,7 +61,7 @@ $ cd documents
 Use the **pwd** command to see if that worked:
 
 {% highlight bash %}
-$ pwd 
+$ pwd
 /Users/Tom/documents
 {% endhighlight %}
 
@@ -97,9 +97,11 @@ $ cd ~/documents/sites/my_awesome_project/public/stylesheets/
 Thats a little long winded to type out multiple times. It’s unlikely that you will be navigating your entire project using just the command line, you’ll be using the Finder for general bits and the CL for running programs (like git).
 To fast track to your project, navigate to it in Finder and type **cd** in the Terminal. Then drag the folder from Finder into the terminal and it will auto complete the path for you. Magic.
 
-<iframe src="https://www.youtube.com/embed/2q329gBDR3g" frameborder="0" allowfullscreen></iframe>
+<div class="videoWrapper">
+  <iframe src="https://www.youtube.com/embed/2q329gBDR3g" frameborder="0" allowfullscreen></iframe>
+</div>
 
-## Making and deleting directories
+### Making and deleting directories
 
 To make a directory move to where you want the new folder and type:
 
@@ -145,7 +147,7 @@ $ ls
 index.html
 {% endhighlight %}
 
-# Opening files in the terminal
+### Opening files in the terminal
 
 You may want to open a file you’re browsing easily, you can do that by simply asking the terminal to open the file:
 
@@ -161,7 +163,7 @@ $ open -a atom index.html
 
 And the file will open in [Atom](https://atom.io/) (my current text editor of choice)
 
-## History and search
+### History and search
 
 Searching for a previous command by scrolling through the previous output can be a little daunting with all the system jargon the terminal can spit out. Luckily there are a few shortcuts:
 
@@ -181,6 +183,6 @@ if you start typing, the most recent command that equals your query will be disp
 
 An even quicker method of searching recent commands is simply pressing the **↑ (up) key** on your num-pad to browse commands in chronological order.
 
-## Find out more
+### Find out more
 
 The command line can do **a lot** more than the above but as the title suggests, you probably won’t use many of the other commands on a day-to-day basis. If you’d like to find out more about the command line and the myriad of other commands, I highly suggest reading through the [Command Line Crash Course](http://cli.learncodethehardway.org/book/) by Zed A Shaw.
