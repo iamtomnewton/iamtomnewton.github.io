@@ -1,6 +1,6 @@
 ---
 title: Dynamic Web Typography with Typekit
-date: 2017-01-03 11:40:00 +00:00
+date: 2015-05-14 11:40:00 +01:00
 ---
 
 Web performance budgets are a hot topic right now and for very good reasons. We as designers have been let off the lead recently (relatively free from not doing things because a certain browser can’t) and are having a blast using big high-res imagery, background videos and the font-stack of our dreams. Unfortunately all of this comes at a cost, and that is a monetary one to the user (data isn’t cheap!)
