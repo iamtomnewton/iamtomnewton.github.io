@@ -35,10 +35,10 @@
 }
 
 .nav__list {
-  //float: right;
+  display: -webkit-flex; /* Safari */
+  -webkit-justify-content: space-around; /* Safari 6.1+ */
   display: flex;
-  flex-grow: 1;
-  justify-content: space-between;
+  justify-content: space-around;
   margin: 0;
   margin-bottom: 2px; // Adjusts for embox spacing in font
 }
