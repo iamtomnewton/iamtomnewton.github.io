@@ -19,7 +19,7 @@ The user will be able to browse through and preview PyroTech's large catalogue o
 
 This project was published in the print and digital editions of .Net Magazine.
 
-[![Net-Screenshot.jpg](/uploads/Net-Screenshot.jpg)](/uploads/Net-Screenshot.jpg)
+![Net-Screenshot.jpg](/uploads/Net-Screenshot.jpg)(/uploads/Net-Screenshot.jpg)
 
 ![Net-Screenshot.jpg](/uploads/Net-Screenshot.jpg)
 
