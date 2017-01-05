@@ -97,9 +97,7 @@ $ cd ~/documents/sites/my_awesome_project/public/stylesheets/
 Thats a little long winded to type out multiple times. It’s unlikely that you will be navigating your entire project using just the command line, you’ll be using the Finder for general bits and the CL for running programs (like git).
 To fast track to your project, navigate to it in Finder and type **cd** in the Terminal. Then drag the folder from Finder into the terminal and it will auto complete the path for you. Magic.
 
-<div class="videoWrapper">
-  <iframe src="https://www.youtube.com/embed/2q329gBDR3g" frameborder="0" allowfullscreen></iframe>
-</div>
+<iframe width="1280" height="720" src="https://www.youtube.com/embed/2q329gBDR3g" frameborder="0" allowfullscreen></iframe>
 
 ### Making and deleting directories
 
