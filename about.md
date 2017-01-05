@@ -21,13 +21,15 @@ I like to share thoughts about design and development on [Twitter](https://twitt
 
   <fieldset class="form-half">  
     <label for="email">Email</label>
-    <input type="email" name="email" id="email" required />
+    <input type="email" name="_replyto" id="email" required />
   </fieldset>
 
   <fieldset>  
     <label for="message" id="message-label">Message</label>
     <textarea name="message" id="message" required ></textarea>
   </fieldset>
+
+  <input type="text" name="_gotcha" style="display:none" />
 
   <input type="submit" name="submit" value="Send message" class="submit-button" />
   </form>
