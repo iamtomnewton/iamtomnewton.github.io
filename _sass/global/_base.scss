@@ -294,6 +294,7 @@ input, textarea {
 textarea {
   min-height: 175px;
   margin-bottom: $spacing-unit / 2;
+  padding: 5px 10px;
 }
 
 input[type="submit"] {
