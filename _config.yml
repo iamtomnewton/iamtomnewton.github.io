@@ -42,6 +42,5 @@ exclude:
 sass:
   style: expanded
 permalink: "/blog/:title/"
-
 disqus:
-    shortname: iamtomnewton
+  shortname: iamtomnewton
