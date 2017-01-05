@@ -23,9 +23,9 @@ The video below shows the installation in action, with some further detail shots
 <iframe src="https://player.vimeo.com/video/197412516" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 
-![finery-01.jpg](/uploads/finery-01.jpg)
-![finery-02.jpg](/uploads/finery-02.jpg)
-![finery-03.jpg](/uploads/finery-03.jpg)
-![finery-04.jpg](/uploads/finery-04.jpg)
-![finery-05.jpg](/uploads/finery-05.jpg)
-![finery-06.jpg](/uploads/finery-06.jpg)
+[![finery-01.jpg](/uploads/finery-01.jpg)](/uploads/finery-01.jpg)
+[![finery-02.jpg](/uploads/finery-02.jpg)](/uploads/finery-02.jpg)
+[![finery-03.jpg](/uploads/finery-03.jpg)](/uploads/finery-03.jpg)
+[![finery-04.jpg](/uploads/finery-04.jpg)](/uploads/finery-04.jpg)
+[![finery-05.jpg](/uploads/finery-05.jpg)](/uploads/finery-05.jpg)
+[![finery-06.jpg](/uploads/finery-06.jpg)](/uploads/finery-06.jpg)
