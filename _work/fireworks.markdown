@@ -21,8 +21,6 @@ This project was published in the print and digital editions of .Net Magazine.
 
 [![Net-Screenshot.jpg](/uploads/Net-Screenshot.jpg)](/uploads/Net-Screenshot.jpg)
 
-![Net-Screenshot.jpg](/uploads/Net-Screenshot.jpg)
-
-![fireworks-a88c5d.jpg](/uploads/fireworks-a88c5d.jpg)
-![music.jpg](/uploads/music.jpg)
-![preview.jpg](/uploads/preview.jpg)
+[![fireworks-a88c5d.jpg](/uploads/fireworks-a88c5d.jpg)](/uploads/fireworks-a88c5d.jpg)
+[![music.jpg](/uploads/music.jpg)](/uploads/music.jpg)
+[![preview.jpg](/uploads/preview.jpg)](/uploads/preview.jpg)
