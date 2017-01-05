@@ -6,5 +6,5 @@ client: Musical fireworks
 cover: "/uploads/fireworks.jpg"
 background-color: "#66BCC6"
 copy: light
+layout: work
 ---
-

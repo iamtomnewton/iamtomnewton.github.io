@@ -6,5 +6,5 @@ client: Chelsea FC
 cover: "/uploads/chelsea.jpg"
 background-color: "#034694"
 copy: light
+layout: work
 ---
-

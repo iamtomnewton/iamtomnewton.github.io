@@ -6,5 +6,6 @@ client: Manolo Blahnik
 cover: "/uploads/manolo.jpg"
 background-color: "#fff"
 copy: dark
+link: www.manoloblahnik.com
+layout: work
 ---
-

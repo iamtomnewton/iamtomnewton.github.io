@@ -6,5 +6,5 @@ client: Finery London
 cover: "/uploads/finery.jpg"
 background-color: "#fc4237"
 copy: light
+layout: work
 ---
-
