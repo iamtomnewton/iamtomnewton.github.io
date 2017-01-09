@@ -25,12 +25,12 @@
   transition: transform 5s ease-in-out;
   transition: transform 5s ease-in-out,-webkit-transform 5s ease-in-out;
 
-  @include respond-to-min($large) {
-    &:hover {
-      -webkit-transform:scale(1.075);
-      transform:scale(1.075)
-    }
-  }
+  // @include respond-to-min($large) {
+  //   &:hover {
+  //     -webkit-transform:scale(1.075);
+  //     transform:scale(1.075)
+  //   }
+  // }
 }
 
 .content-block__copy {
