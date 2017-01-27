@@ -20,17 +20,17 @@
   background-position: center center;
   background-size: cover;
   background-color: $brand-color;
-  -webkit-transition: -webkit-transform 5s ease-in-out;
-  transition: -webkit-transform 5s ease-in-out;
-  transition: transform 5s ease-in-out;
-  transition: transform 5s ease-in-out,-webkit-transform 5s ease-in-out;
+  -webkit-transition: -webkit-transform 7s ease-in-out;
+  transition: -webkit-transform 7s ease-in-out;
+  transition: transform 7s ease-in-out;
+  transition: transform 7s ease-in-out,-webkit-transform 7s ease-in-out;
 
-  // @include respond-to-min($large) {
-  //   &:hover {
-  //     -webkit-transform:scale(1.075);
-  //     transform:scale(1.075)
-  //   }
-  // }
+  @include respond-to-min($large) {
+    &:hover {
+      -webkit-transform:scale(1.075);
+      transform:scale(1.075)
+    }
+  }
 }
 
 .content-block__copy {
