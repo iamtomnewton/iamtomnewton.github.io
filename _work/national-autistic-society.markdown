@@ -5,7 +5,7 @@ position: 1
 client: National Autistic Society
 cover: "/uploads/nas.jpg"
 background-color: "#E72974"
-copy: dark
+copy: light
 link: www.autism.org.uk
 ---
 
