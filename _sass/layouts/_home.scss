@@ -3,7 +3,6 @@
   height: 90vh;
   position: relative;
   overflow: hidden;
-
   @include respond-to-min($small) {
     height: 80vh;
     min-height: 500px;
@@ -20,15 +19,14 @@
   background-position: center center;
   background-size: cover;
   background-color: $brand-color;
-  -webkit-transition: -webkit-transform 7s ease-in-out;
-  transition: -webkit-transform 7s ease-in-out;
-  transition: transform 7s ease-in-out;
-  transition: transform 7s ease-in-out,-webkit-transform 7s ease-in-out;
-
+  -webkit-transition: -webkit-transform 9s ease-in-out;
+  transition: -webkit-transform 9s ease-in-out;
+  transition: transform 9s ease-in-out;
+  transition: transform 9s ease-in-out, -webkit-transform 9s ease-in-out;
   @include respond-to-min($large) {
     &:hover {
-      -webkit-transform:scale(1.075);
-      transform:scale(1.075)
+      -webkit-transform: scale(1.075);
+      transform: scale(1.075)
     }
   }
 }
@@ -45,7 +43,6 @@
 .content-block__copy--dark {
   @extend .content-block__copy;
   color: $text-color;
-
   .content-block__title {
     //text-shadow: 2px 2px 0px #fff;
   }
@@ -61,9 +58,7 @@
 .content-block__title {
   //font-size: remify(55px);
   max-width: 700px;
-  margin-bottom: 0;
-  //text-shadow: 2px 2px 0px $text-color;
-
+  margin-bottom: 0; //text-shadow: 2px 2px 0px $text-color;
   @include respond-to-min($med) {
     margin-bottom: $spacing-unit / 2;
   }
