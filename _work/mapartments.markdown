@@ -5,7 +5,7 @@ client: Manchester Apartments
 cover: "/uploads/mApartments.jpg"
 background-color: "#862149"
 copy: light
-link: https://mapartments.co.uk/
+link: www.mapartments.co.uk
 layout: work
 ---
 
