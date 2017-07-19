@@ -1,7 +1,7 @@
 ---
 title: ".Net Magazine Design Challenge"
 date: 2016-12-31 11:59:00 +00:00
-position: 6
+position: 7
 client: Musical fireworks
 cover: "/uploads/fireworks.jpg"
 background-color: "#66BCC6"
