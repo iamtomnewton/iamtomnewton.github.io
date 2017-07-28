@@ -4,7 +4,7 @@ permalink: "/about/"
 layout: page
 ---
 
-#### Hello, I am Tom Newton, designer and front-end developer working to create the best solution to my clients problems.
+#### Hello, I am Tom Newton, a front-end developer with a highly experienced design background working to create the best solution to my clients problems.
 
 I'm located in Manchester where I work as a Design Lead for some great clients over at [Code Computerlove](https://www.codecomputerlove.com/) as well as being on the fantastic [CSSDA](http://www.cssdesignawards.com/) judging panel.
 
