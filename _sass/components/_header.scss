@@ -1,6 +1,6 @@
 .header {
   position: fixed;
-  bottom: $spacing-unit;
+  top: $spacing-unit / 2;
   left: $spacing-unit / 2;
   right: $spacing-unit / 2;
   transition: bottom 0.2s ease-in-out;
@@ -11,7 +11,7 @@
 }
 
 .nav-up {
-  bottom: -50px;
+  top: -50px;
 }
 
 .header__logo {
