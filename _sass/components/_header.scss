@@ -1,18 +1,17 @@
 .header {
   position: fixed;
-  top: $spacing-unit;
+  bottom: $spacing-unit;
   left: $spacing-unit / 2;
   right: $spacing-unit / 2;
-  transition: top 0.2s ease-in-out;
+  transition: bottom 0.2s ease-in-out;
   z-index: 20;
-  transition: top 0.2s ease-in-out;
   background-color: #fff;
   padding: 10px $spacing-unit;
   border: 2px solid $brand-color;
 }
 
 .nav-up {
-  top: -50px;
+  bottom: -50px;
 }
 
 .header__logo {
