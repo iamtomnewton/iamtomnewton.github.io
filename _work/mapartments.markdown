@@ -1,5 +1,5 @@
 ---
-title: City Centre Living
+title: Manchester Apartments
 date: 2017-06-02 10:29:00 +01:00
 position: 2
 client: Manchester Apartments
