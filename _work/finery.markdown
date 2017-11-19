@@ -1,5 +1,5 @@
 ---
-title: Launching a new exclusive fashion brand
+title: Finery London
 date: 2016-12-31 11:59:00 +00:00
 position: 7
 client: Finery London
