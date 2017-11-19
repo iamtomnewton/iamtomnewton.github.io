@@ -6,6 +6,6 @@ client: Center Parcs
 cover: "/uploads/CenterParcs.jpg"
 background-color: "#7fa022"
 copy: dark
-link: https://www.centerparcs.co.uk/
+link: http://www.centerparcs.co.uk/
 ---
 
