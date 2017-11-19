@@ -1,5 +1,5 @@
 ---
-title: Refining the hospitality experience
+title: Chelsea FC Hospitality
 date: 2016-12-31 11:59:00 +00:00
 position: 6
 client: Chelsea FC
