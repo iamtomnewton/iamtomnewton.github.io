@@ -100,7 +100,7 @@ We used the [Run Sequence](https://www.npmjs.com/package/run-sequence) package t
 
 Our final gulp file looks like this (I've also added [del](https://www.npmjs.com/package/del) to handle removing the `/DIR/` file before we run download, to clear it out and some basic styling to the index file)
 
-``` Javascript
+{% highlight javascript %}
 'use-strict';
 
 var del = require('del');
@@ -179,3 +179,4 @@ gulp.task('surge', function () {
 gulp.task('deploy', function (cb) {
     runSeq(['sass'], ['download'], ['buildIndex'], ['surge'], cb);
 });
+{% endhighlight %}
