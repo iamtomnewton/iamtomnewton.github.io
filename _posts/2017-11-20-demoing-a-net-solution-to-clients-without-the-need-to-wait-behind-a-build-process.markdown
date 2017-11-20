@@ -19,7 +19,7 @@ Arguably, this is the biggest issue we had. How can we deploy a non-static site 
 
 To do this we used our usual task runner [Gulp](https://gulpjs.com/) and an NPM package called [Website-Scraper](https://www.npmjs.com/package/website-scraper) to download the site after build and store it locally for Surge to deploy. The gulp file set-up is simple:
 
-``` Javascript
+{% highlight javascript %}
 'use-strict';
 
 var gulp = require('gulp');
@@ -41,7 +41,7 @@ gulp.task('download', function (done) {
         done();
     });
 });
-```
+{% endhighlight %}
 
 Firstly require gulp and website-scraper, create a gulp wrapper task and define **scrape** to take a **URLs** object with **URL** and **filename** properties, these will be the URLs that are scraped (I.E localhost/anypage) and a filename for website-scraper to give the file (if left blank this will default to index.html). You can include multiple objects to scrape muiltiple pages, we have this set up in a config file to scrape a longer list, which I recommend setting up for ease of adding new pages as you get to designing them.
 
@@ -49,7 +49,7 @@ Secondly define a **directory** for the files to be populated to (I.E ./surge). 
 
 Great, we've got our site downloading to our file system, now we need a way to access the pages we want to deploy. For this we used another NPM package called [Index](https://www.npmjs.com/package/gulp-index) which looks through a folder and pulls all .html files into a index.html file which you can use as a landing page.
 
-``` Javascript
+{% highlight javascript %}
 var index = require('gulp-index');
 
 
@@ -57,11 +57,11 @@ gulp.task('buildIndex', function () {
     return gulp.src(['./DIR/**/*.html'])
        .pipe(gulp.dest('./DIR/'));
     });
-```
+{% endhighlight %}
 
 Index is quite simple to set up, just add the folder and file types you want it to index and pass a destination. This works okay but the paths are all set to `local/DIR` which won't work on Surge so we need to add a **relativePath** option to clean this up. There are a lot of available options for this package including changing titles, index HMTL structure and styling all of which we added seporately.
 
-``` Javascript
+{% highlight javascript %}
 var index = require('gulp-index');
 
 
@@ -72,12 +72,12 @@ gulp.task('buildIndex', function () {
             }))
        .pipe(gulp.dest('./DIR/'));
     });
-```
+{% endhighlight %}
 
 Great, our index is working. Now we just need to deploy it to Surge using the handy [gulp-surge](https://github.com/surge-sh/gulp-surge) package.
 
 
-``` Javascript
+{% highlight javascript %}
 var surge = require('gulp-surge');
 
 gulp.task('surge', function () {
@@ -86,19 +86,19 @@ gulp.task('surge', function () {
         domain: 'YOUR-PROJECT.surge.sh'
     });
 });
-```
+{% endhighlight %}
 
 and wrap it all up in a deploy task
 
-``` Javascript
+{% highlight javascript %}
 gulp.task('deploy', function (cb) {
     runSeq(['download'], ['buildIndex'], ['surge'], cb);
 });
-```
+{% endhighlight %}
 
 We used the [Run Sequence](https://www.npmjs.com/package/run-sequence) package to make sure we're handling these tasks in the correct order, otherwise you'll end up deploying a half-downloaded site! I'd recommend running your Sass and any move tasks you're also using as part of this task (before [download]).
 
-Our final gulp file looks like this (I've also added [del](https://www.npmjs.com/package/del) to handle removing the `/DIR/` file before we run download, to clear it out and some basic styling to the index file)
+Our final gulp file looks like this (I've also added [del](https://www.npmjs.com/package/del) to handle removing the {% highlight %}/DIR/`{% endhighlight %} file before we run download, to clear it out and some basic styling to the index file)
 
 {% highlight javascript %}
 'use-strict';
