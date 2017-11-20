@@ -19,7 +19,7 @@ Arguably, this is the biggest issue we had. How can we deploy a non-static site 
 
 To do this we used our usual task runner [Gulp](https://gulpjs.com/) and an NPM package called [Website-Scraper](https://www.npmjs.com/package/website-scraper) to download the site after build and store it locally for Surge to deploy. The gulp file set-up is simple:
 
-``` Javascript
+``` 
 'use-strict';
 
 var gulp = require('gulp');
@@ -49,7 +49,7 @@ Secondly define a **directory** for the files to be populated to (I.E ./surge). 
 
 Great, we've got our site downloading to our file system, now we need a way to access the pages we want to deploy. For this we used another NPM package called [Index](https://www.npmjs.com/package/gulp-index) which looks through a folder and pulls all .html files into a index.html file which you can use as a landing page.
 
-``` javascript
+``` 
 var index = require('gulp-index');
 
 
@@ -61,7 +61,7 @@ gulp.task('buildIndex', function () {
 
 Index is quite simple to set up, just add the folder and file types you want it to index and pass a destination. This works okay but the paths are all set to `local/DIR` which won't work on Surge so we need to add a **relativePath** option to clean this up. There are a lot of available options for this package including changing titles, index HMTL structure and styling all of which we added seporately.
 
-``` javascript
+``` 
 var index = require('gulp-index');
 
 
@@ -77,7 +77,7 @@ gulp.task('buildIndex', function () {
 Great, our index is working. Now we just need to deploy it to Surge using the handy [gulp-surge](https://github.com/surge-sh/gulp-surge) package.
 
 
-``` javascript
+``` 
 var surge = require('gulp-surge');
 
 gulp.task('surge', function () {
@@ -90,7 +90,7 @@ gulp.task('surge', function () {
 
 and wrap it all up in a deploy task
 
-``` javascript
+``` 
 gulp.task('deploy', function (cb) {
     runSeq(['download'], ['buildIndex'], ['surge'], cb);
 });
@@ -103,24 +103,11 @@ Our final gulp file looks like this (I've also added [del](https://www.npmjs.com
 ``` javascript
 'use-strict';
 
-/* ============================================================ *\
-    DESCRIPTION
-\* ============================================================ */
-
-
-/* ============================================================ *\
-    CONFIG
-\* ============================================================ */
-
 var del = require('del');
 var runSeq = require('run-sequence');
 var scrape = require('website-scraper');
 var index = require('gulp-index');
 var surge = require('gulp-surge');
-
-/* ============================================================ *\
-    TASKS
-\* ============================================================ */
 
 gulp.task('download', function (done) {
     scrape({
