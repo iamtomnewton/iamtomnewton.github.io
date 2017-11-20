@@ -19,7 +19,7 @@ Arguably, this is the biggest issue we had. How can we deploy a non-static site 
 
 To do this we used our usual task runner [Gulp](https://gulpjs.com/) and an NPM package called [Website-Scraper](https://www.npmjs.com/package/website-scraper) to download the site after build and store it locally for Surge to deploy. The gulp file set-up is simple:
 
-``` javascript
+``` Javascript
 'use-strict';
 
 var gulp = require('gulp');
