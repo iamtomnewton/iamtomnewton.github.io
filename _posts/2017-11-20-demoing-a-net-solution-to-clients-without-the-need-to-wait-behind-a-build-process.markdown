@@ -59,7 +59,7 @@ gulp.task('buildIndex', function () {
     });
 {% endhighlight %}
 
-Index is quite simple to set up, just add the folder and file types you want it to index and pass a destination. This works okay but the paths are all set to `local/DIR` which won't work on Surge so we need to add a **relativePath** option to clean this up. There are a lot of available options for this package including changing titles, index HMTL structure and styling all of which we added seporately.
+Index is quite simple to set up, just add the folder and file types you want it to index and pass a destination. This works okay but the paths are all set to {% highlight %}local/DIR{% endhighlight %} which won't work on Surge so we need to add a **relativePath** option to clean this up. There are a lot of available options for this package including changing titles, index HMTL structure and styling all of which we added seporately.
 
 {% highlight javascript %}
 var index = require('gulp-index');
@@ -98,7 +98,7 @@ gulp.task('deploy', function (cb) {
 
 We used the [Run Sequence](https://www.npmjs.com/package/run-sequence) package to make sure we're handling these tasks in the correct order, otherwise you'll end up deploying a half-downloaded site! I'd recommend running your Sass and any move tasks you're also using as part of this task (before [download]).
 
-Our final gulp file looks like this (I've also added [del](https://www.npmjs.com/package/del) to handle removing the {% highlight %}/DIR/`{% endhighlight %} file before we run download, to clear it out and some basic styling to the index file)
+Our final gulp file looks like this (I've also added [del](https://www.npmjs.com/package/del) to handle removing the {% highlight %}/DIR/{% endhighlight %} file before we run download, to clear it out and some basic styling to the index file)
 
 {% highlight javascript %}
 'use-strict';
