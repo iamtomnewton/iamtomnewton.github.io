@@ -4,7 +4,7 @@ title: Demoing a .NET solution to clients without the need to wait behind a buil
 date: 2017-11-20 12:48:00 +00:00
 ---
 
-Recently I moved over to a new client working in a .NET solution, coming from a team where we primarily worked on front-end heavy sites with minimal back-end CMS integration this was a big change. C# and Razor being relatively straight forward languages to pick up and MVC taking a little time to cement in, I didn't have a great deal of trouble, where I did stumble was the deployment process. 
+Recently I moved over to a new client working in a .NET solution, coming from a team where we primarily worked on front-end heavy sites with minimal back-end CMS integration this was a big change. C# and Razor being relatively straight forward languages to pick up and MVC taking a little time to cement in, I didn't have a great deal of trouble, where I did stumble was the deployment process.
 
 When I joined the team it was running a classic Agile / Kanban approach with a semi-waterfall working process (design, then build in FE, then build in BE) causing a **lot** of waste. I set about implimenting newer and smoother working practices including ticket swarming (all members working on the same task at the same time), naturally this approach requires a lot more of the design work being done in the browser. 
 However this caused a evident blocker on the client side, they weren't able to see designs as we were doing them *(designing in browser isn't much slower than Photoshop or Sketch, to a client it feels alot more "done" - although amends tend to run quicker)*. Previously working on front-end heavy sites I was used to easily deploy up to a service like [Surge ](https://surge.sh/) for checkins and approval demos. In a .NET solution the site isn't static, in-fact it's as far from static as you can really get meaning Surge was a no-go.
@@ -52,7 +52,6 @@ Great, we've got our site downloading to our file system, now we need a way to a
 {% highlight javascript %}
 var index = require('gulp-index');
 
-
 gulp.task('buildIndex', function () {
     return gulp.src(['./DIR/**/*.html'])
        .pipe(gulp.dest('./DIR/'));
@@ -64,7 +63,6 @@ Index is quite simple to set up, just add the folder and file types you want it 
 {% highlight javascript %}
 var index = require('gulp-index');
 
-
 gulp.task('buildIndex', function () {
     return gulp.src(['./DIR/**/*.html'])
      .pipe(index({
@@ -75,7 +73,6 @@ gulp.task('buildIndex', function () {
 {% endhighlight %}
 
 Great, our index is working. Now we just need to deploy it to Surge using the handy [gulp-surge](https://github.com/surge-sh/gulp-surge) package.
-
 
 {% highlight javascript %}
 var surge = require('gulp-surge');
