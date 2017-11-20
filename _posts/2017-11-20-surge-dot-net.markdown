@@ -16,7 +16,7 @@ Instead we worked out a way to deploy to Surge, which in the end was acutually i
 
 ## Step 1
 
-Arguably, this is the biggest issue we had. How can we deploy a non-static site (server build, databases etc) to a static site host? The solution was to download the site form IIS localhost and deploy it from there.
+Arguably the biggest issue we had was figuring out how we can deploy a non-static site (server build, databases etc) to a static site host? The solution was to download the site form IIS localhost and deploy it from there, simple right?
 
 To do this we used our usual task runner [Gulp](https://gulpjs.com/) and an NPM package called [Website-Scraper](https://www.npmjs.com/package/website-scraper) to download the site after build and store it locally for Surge to deploy. The gulp file set-up is simple:
 
