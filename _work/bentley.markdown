@@ -5,6 +5,6 @@ client: Bentley
 cover: "/uploads/Bentley2.jpg"
 background-color: "#7e988f"
 copy: dark
-link: https://shop.bentleymotors.com/
+link: www.shop.bentleymotors.com
 ---
 
