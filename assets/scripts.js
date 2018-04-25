@@ -11,11 +11,25 @@ document.addEventListener('DOMContentLoaded', function(){
             didScroll = false;
         }
     }, 250);
+   
+   function getScrollTop(){
+       if(typeof pageYOffset!= 'undefined'){
+           //most browsers except IE before #9
+           return pageYOffset;
+       }
+       else{
+           var B= document.body; //IE 'quirks'
+           var D= document.documentElement; //IE with doctype
+           D= (D.clientHeight)? D: B;
+           return D.scrollTop;
+       }
+   }
+
+   scrollTop = getScrollTop();
+   console.log(scrollTop);
 
     function hasScrolled() {
         var st = window.scrollTop;
-       
-       console.log(st);
 
         // Make sure they scroll more than delta
         if(Math.abs(lastScrollTop - st) <= delta) {
@@ -40,6 +54,7 @@ document.addEventListener('DOMContentLoaded', function(){
     function bindEventListeners() {
         window.addEventListener('scroll', function(){
             didScroll = true;
+            getScrollTop();
         })
     }
 
