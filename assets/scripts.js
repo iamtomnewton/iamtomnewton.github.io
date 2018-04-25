@@ -30,14 +30,8 @@ document.addEventListener('DOMContentLoaded', function(){
             getHeader.classList.add('nav-up');
         } else {
             // Scroll Up
-           console.log(document.innerHeight);
-           console.log(window.innerHeight);
-           console.log(st + window.innerHeight);
-           
-            if(st + window.innerHeight < document.innerHeight) {
-               getHeader.classList.remove('nav-up');
-               getHeader.classList.add('nav-down');
-            }
+            getHeader.classList.remove('nav-up');
+            getHeader.classList.add('nav-down');
         }
 
         lastScrollTop = st;
