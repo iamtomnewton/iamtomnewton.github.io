@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', function(){
             getHeader.classList.add('nav-up');
         } else {
             // Scroll Up
-            if(st + window.offsetHeight < document.offsetHeight) {
+            if(st + window.innerHeight < document.innerHeight) {
                getHeader.classList.remove('nav-up');
                getHeader.classList.add('nav-down');
             }
