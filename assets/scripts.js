@@ -26,11 +26,13 @@ document.addEventListener('DOMContentLoaded', function(){
         // This is necessary so you never see what is "behind" the navbar.
         if (st > lastScrollTop && st > navbarHeight){
             // Scroll Down
-            getHeader.classList.remove('nav-down').classList.add('nav-up');
+            getHeader.classList.remove('nav-down');
+            getHeader.classList.add('nav-up');
         } else {
             // Scroll Up
             if(st + window.offsetHeight < document.offsetHeight) {
-               getHeader.classList.remove('nav-up').classList.add('nav-down');
+               getHeader.classList.remove('nav-up');
+               getHeader.classList.add('nav-down');
             }
         }
 
@@ -40,7 +42,6 @@ document.addEventListener('DOMContentLoaded', function(){
     function bindEventListeners() {
         window.addEventListener('scroll', function(){
             didScroll = true;
-            getScrollTop();
         })
     }
 
