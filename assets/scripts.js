@@ -16,8 +16,9 @@ document.addEventListener('DOMContentLoaded', function(){
         var st = this.scrollTop;
 
         // Make sure they scroll more than delta
-        if(Math.abs(lastScrollTop - st) <= delta)
-        return;
+        if(Math.abs(lastScrollTop - st) <= delta) {
+           return;
+        }
 
         // If they scrolled down and are past the navbar, add class .nav-up.
         // This is necessary so you never see what is "behind" the navbar.
@@ -26,8 +27,8 @@ document.addEventListener('DOMContentLoaded', function(){
             getHeader.classList.remove('nav-down').classList.add('nav-up');
         } else {
             // Scroll Up
-            if(st + window.height < document.height) {
-            getHeader.classList.remove('nav-up').classList.add('nav-down');
+            if(st + window.offsetHeight < document.offsetHeight) {
+               getHeader.classList.remove('nav-up').classList.add('nav-down');
             }
         }
 
