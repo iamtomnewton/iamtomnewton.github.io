@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function(){
     }, 250);
 
     function hasScrolled() {
-        var st = this.scrollTop();
+        var st = this.scrollTop;
 
         // Make sure they scroll more than delta
         if(Math.abs(lastScrollTop - st) <= delta)
