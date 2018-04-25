@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function(){
     }, 250);
 
     function hasScrolled() {
-        var st = this.scrollTop;
+        var st = window.scrollTop;
        
        console.log(st);
 
