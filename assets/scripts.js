@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', function(){
             getHeader.classList.remove('nav-down').classList.add('nav-up');
         } else {
             // Scroll Up
-            if(st + window.height() < document.height()) {
+            if(st + window.height < document.height) {
             getHeader.classList.remove('nav-up').classList.add('nav-down');
             }
         }
