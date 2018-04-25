@@ -14,6 +14,8 @@ document.addEventListener('DOMContentLoaded', function(){
 
     function hasScrolled() {
         var st = this.scrollTop;
+       
+       console.log(scrollTop);
 
         // Make sure they scroll more than delta
         if(Math.abs(lastScrollTop - st) <= delta) {
