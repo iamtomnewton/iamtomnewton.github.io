@@ -2,7 +2,7 @@ var didScroll;
 var lastScrollTop = 0;
 var delta = 5;
 var getHeader = document.querySelector('.header');
-var navbarHeight = getHeader.outerHeight();
+var navbarHeight = getHeader.offsetHeight;
 
 setInterval(function() {
     if (didScroll) {
