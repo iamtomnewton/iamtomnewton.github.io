@@ -6,7 +6,7 @@ layout: page
 
 #### Hello, I am Tom Newton, lead designer and front-end developer working to create the best solution to my clients problems.
 
-I'm located in Manchester where I work as the Lead UX Designer (Core Product) at BookingGo as well as being on the fantastic [CSSDA](http://www.cssdesignawards.com/) judging panel.
+I'm located in Manchester where I work as the Lead UX Designer for [Rental Cars](https://www.rentalcars.com/en/) core product team as well as being on the fantastic [CSSDA](http://www.cssdesignawards.com/) judging panel.
 
 I like to share thoughts about design and development on [Twitter](https://twitter.com/iamtomnewton), longer thoughts, tutorials, inspiration and code samples on my [Journal](/blog), snapshots of my current work on [Dribbble](https://dribbble.com/iamtomnewton) and I’d be more than happy to connect with you on [LinkedIn](https://uk.linkedin.com/in/tom-newton-089b9970).
 
