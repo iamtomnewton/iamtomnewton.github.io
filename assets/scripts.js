@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function(){ 
-   var didScroll;
+    var didScroll;
     var lastScrollTop = 0;
     var delta = 5;
     var getHeader = document.querySelector('.header');
@@ -14,8 +14,6 @@ document.addEventListener('DOMContentLoaded', function(){
 
     function hasScrolled() {
         var st = window.scrollY;
-       
-       console.log(st);
        
         // Make sure they scroll more than delta
         if(Math.abs(lastScrollTop - st) <= delta) {
