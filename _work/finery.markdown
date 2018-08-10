@@ -1,7 +1,7 @@
 ---
 title: Finery London
 date: 2016-12-31 11:59:00 +00:00
-position: 7
+position: 9
 client: Finery London
 cover: "/uploads/finery.jpg"
 background-color: "#fc4237"
