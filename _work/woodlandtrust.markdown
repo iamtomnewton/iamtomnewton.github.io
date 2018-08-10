@@ -6,6 +6,6 @@ client: Woodland Trust
 cover: "/uploads/WoodlandTrust.jpg"
 background-color: "#1c8162"
 copy: dark
-link: http://www.woodlandtrust.org.uk/
+link: https://www.woodlandtrust.org.uk/
 ---
 
