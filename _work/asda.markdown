@@ -6,7 +6,7 @@ client: Asda
 cover: "/uploads/asda.jpg"
 background-color: "#78BE20"
 copy: dark
-link: http://asda-wip.herokuapp.com/
+link: asda-wip.herokuapp.com
 layout: work
 ---
 
