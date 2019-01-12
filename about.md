@@ -1,14 +1,16 @@
 ---
-title: About
+title: About me
 permalink: "/about/"
 layout: page
 ---
 
-#### Hello, I am Tom Newton, lead designer and front-end developer working to create the best solution to my clients problems.
+I’m a highly-motivated design leader with experience leading cross discipline teams and projects from brief to live product across various web and app platforms. Located in Manchester, I'm currently the Lead UX Designer for the cars arm of Booking.com [(Rental Cars)](https://www.rentalcars.com/en/) core product team as well as being on the fantastic [CSSDA](http://www.cssdesignawards.com/) judging panel.
 
-I'm located in Manchester where I work as the Lead UX Designer for [Rental Cars](https://www.rentalcars.com/en/) core product team as well as being on the fantastic [CSSDA](http://www.cssdesignawards.com/) judging panel.
+I have a background in development and lead from a cross discipline mentality, ensuring the product is designed and built harmoniously to reduce waste and provide value with measurable success.
 
-I like to share thoughts about design and development on [Twitter](https://twitter.com/iamtomnewton), longer thoughts, tutorials, inspiration and code samples on my [Journal](/blog), snapshots of my current work on [Dribbble](https://dribbble.com/iamtomnewton) and I’d be more than happy to connect with you on [LinkedIn](https://uk.linkedin.com/in/tom-newton-089b9970).
+<!-- ### My process -->
+
+I always strive to find the correct answer to optimise the customer experience through workshops, design sprints and rapid prototyping to validate ideas in the hands of real people. 
 
 <div class="contact">
   <form method="post" class="form" id="contactForm" action="https://formspree.io/hello@iamtomnewton.com">
