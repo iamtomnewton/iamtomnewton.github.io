@@ -12,6 +12,10 @@ I have a background in development and lead from a cross discipline mentality, e
 
 I always strive to find the correct answer to optimise the customer experience through workshops, design sprints and rapid prototyping to validate ideas in the hands of real people. 
 
+<a href="https://drive.google.com/file/d/11GpMnisbihuzbBZ6io1BXjP3ZOqX-sOb/view?usp=sharing" class="btn" target="_blank">Download CV</a>
+
+### Get in touch
+
 <div class="contact">
   <form method="post" class="form" id="contactForm" action="https://formspree.io/hello@iamtomnewton.com">
   <div class="status"></div>

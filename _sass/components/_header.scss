@@ -6,8 +6,12 @@
   transition: all 0.2s ease-in-out;
   z-index: 20;
   background-color: #fff;
-  padding: 10px $spacing-unit;
+  padding: 10px #{$spacing-unit / 4};
   border: 2px solid $brand-color;
+
+  @include respond-to-min($small) {
+    padding: 10px $spacing-unit;
+  }
 }
 
 .nav-up {

@@ -1,13 +1,25 @@
 /**
 * Reset some basic elements
 */
-body, h1, h2, h3, h4, h5, h6,
-p, blockquote, pre, hr,
-dl, dd, ol, ul, figure {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+hr,
+dl,
+dd,
+ol,
+ul,
+figure {
   margin: 0;
   padding: 0;
 }
-
 
 /**
 * Sets all elements box-sizing to border-box
@@ -20,7 +32,7 @@ dl, dd, ol, ul, figure {
 * Basic styling
 */
 
-html{
+html {
   height: 100%;
   width: 100%;
   font-size: $base-font-size;
@@ -45,17 +57,24 @@ main {
   min-height: 90vh;
 }
 
-
 /**
 * Set `margin-bottom` to maintain vertical rhythm
 */
-h1, h2, h3, h4, h5, h6,
-p, blockquote, pre,
-ul, ol, dl, figure {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+ul,
+ol,
+dl,
+figure {
   margin-bottom: $spacing-unit / 2;
 }
-
-
 
 /**
 * Images
@@ -64,8 +83,6 @@ img {
   max-width: 100%;
   vertical-align: middle;
 }
-
-
 
 /**
 * Figures
@@ -78,12 +95,11 @@ figcaption {
   font-size: $small-font-size;
 }
 
-
-
 /**
 * Lists
 */
-ul, ol {
+ul,
+ol {
   margin-left: $spacing-unit;
 }
 
@@ -94,18 +110,22 @@ li {
   }
 }
 
-
-
 /**
 * Headings
 */
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-weight: $heading-font-weight;
   font-family: $heading-font-family;
   line-height: $heading-line-height;
 }
 
-h1, .h1 {
+h1,
+.h1 {
   font-size: $base-font-size * 2;
 
   @include respond-to-min($med) {
@@ -117,7 +137,8 @@ h1, .h1 {
   }
 }
 
-h2, .h2 {
+h2,
+.h2 {
   font-size: $base-font-size * 1.625;
 
   @include respond-to-min($med) {
@@ -129,7 +150,8 @@ h2, .h2 {
   }
 }
 
-h3, .h3 {
+h3,
+.h3 {
   font-size: $base-font-size * 1.375;
 
   @include respond-to-min($med) {
@@ -141,10 +163,10 @@ h3, .h3 {
   }
 }
 
-h4, .h4 {
+h4,
+.h4 {
   font-size: $base-font-size * 1.25;
 }
-
 
 /**
 * Links
@@ -153,11 +175,6 @@ a {
   color: $brand-color;
   text-decoration: none;
   font-weight: 600;
-  //@include transition;
-
-  // &:visited {
-  //   color: #551A8B;
-  // }
 
   &:hover {
     color: $text-color;
@@ -165,7 +182,26 @@ a {
   }
 }
 
+.btn {
+  width: 100%;
+  text-align: center;
+  background-color: $brand-color;
+  color: #fff;
+  font-weight: 600;
+  padding: 10px 15px;
+  display: inline-block;
+  min-height: 44px;
 
+  @include respond-to-min($small) {
+    width: auto;
+  }
+
+  &:hover {
+    background-color: $text-color;
+    color: #fff;
+    text-decoration: none;
+  }
+}
 
 /**
 * Blockquotes
@@ -182,8 +218,6 @@ blockquote {
     margin-bottom: 0;
   }
 }
-
-
 
 /**
 * Code formatting
@@ -211,14 +245,12 @@ pre {
   }
 }
 
-
-
 /**
 * Wrapper
 */
 .wrapper {
   max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
-  max-width:         calc(#{$content-width} - (#{$spacing-unit}));
+  max-width: calc(#{$content-width} - (#{$spacing-unit}));
   margin-right: auto;
   margin-left: auto;
   padding-right: $spacing-unit / 2;
@@ -227,12 +259,11 @@ pre {
 
   @include respond-to-min($large) {
     max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
-    max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
+    max-width: calc(#{$content-width} - (#{$spacing-unit} * 2));
     padding-right: $spacing-unit;
     padding-left: $spacing-unit;
   }
 }
-
 
 /**
 * Icons
@@ -246,7 +277,6 @@ pre {
   }
 }
 
-
 /**
 * Form
 */
@@ -259,35 +289,38 @@ fieldset {
   margin-bottom: $spacing-unit / 2;
 }
 
-input, textarea {
+input,
+textarea {
   outline: none;
   border: 1px solid $text-color;
   padding: 0 10px;
   padding-top: -2px;
   padding-bottom: 2px;
-  width: 100%;
-  transition: border .1s ease-in;
-  -webkit-appearance:none;
   height: 40px;
+  width: 100%;
+  transition: border 0.1s ease-in;
+  -webkit-appearance: none;
 
   &:focus {
     border-color: $brand-color;
   }
 
   &::-webkit-input-placeholder {
-    opacity: .6;
+    opacity: 0.6;
   }
 
-  &:-moz-placeholder { /* Firefox 18- */
-    opacity: .6;
+  &:-moz-placeholder {
+    /* Firefox 18- */
+    opacity: 0.6;
   }
 
-  &::-moz-placeholder {  /* Firefox 19+ */
-    opacity: .6;
+  &::-moz-placeholder {
+    /* Firefox 19+ */
+    opacity: 0.6;
   }
 
   &:-ms-input-placeholder {
-    opacity: .6;
+    opacity: 0.6;
   }
 }
 
@@ -299,16 +332,7 @@ textarea {
 
 input[type="submit"] {
   border: none;
-  width: auto;
-  background-color: $brand-color;
-  color: #fff;
-  font-weight: 600;
-  padding-left: 15px;
-  padding-right: 15px;
-
-  &:hover {
-    background-color: $text-color;
-  }
+  @extend .btn;
 }
 
 label {
@@ -326,7 +350,7 @@ label {
     float: left;
     margin-right: 16px;
 
-    &:nth-of-type(2n+2) {
+    &:nth-of-type(2n + 2) {
       margin-right: 0;
     }
   }
