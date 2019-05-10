@@ -8,8 +8,6 @@ I’m a highly-motivated design leader with experience leading cross discipline 
 
 I have a background in development and lead from a cross discipline mentality, ensuring the product is designed and built harmoniously to reduce waste and provide value with measurable success.
 
-<!-- ### My process -->
-
 I always strive to find the correct answer to optimise the customer experience through workshops, design sprints and rapid prototyping to validate ideas in the hands of real people. 
 
 <a href="https://drive.google.com/file/d/11GpMnisbihuzbBZ6io1BXjP3ZOqX-sOb/view?usp=sharing" class="btn" target="_blank">Download CV</a>
