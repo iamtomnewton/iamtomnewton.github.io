@@ -31,7 +31,7 @@ twitter_username: iamtomnewton
 github_username: iamtomnewton
 markdown: kramdown
 theme: minima
-gems:
+plugins:
 - jekyll-feed
 exclude:
 - Gemfile
