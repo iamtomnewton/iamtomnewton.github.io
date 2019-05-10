@@ -24,7 +24,8 @@ defaults:
   values:
     layout: work
 email: hello@iamtomnewton.com
-description: The portfolio of Tom Newton, Design Lead based in Manchester, England.
+description: The portfolio of Tom Newton, Principal Designer based in Manchester,
+  England.
 url: iamtomnewton.com
 twitter_username: iamtomnewton
 github_username: iamtomnewton
