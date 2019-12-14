@@ -25,3 +25,4 @@ We highlighted the journeys and design language used through the current adaptiv
 ![RC app](/uploads/RC_app.png)
 ![RC email](/uploads/RC_email.png)
 
+We secured budget to perform an initial discovery phase to understand and define the current product jobs to be done (from lenses of the user, business and technology), map the journeys and run a design sprint to explore a coherent experience. 
