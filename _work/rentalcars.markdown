@@ -16,4 +16,12 @@ This caused a great deal of inconsistency across the website which was reflected
 ![Rental Cars buttons](/uploads/RC_00.png)
 
 With this in mind, we put together a pitch to the leadership team to highlight the discrepancies and frame what this meant to the users while also structuring the discussions around how the current design and development practices were creating waste by having teams re-making components over and over again. 
-The conclusion being that if we took a holistic approach to design (thinking end-to-end) 
+The conclusion being that if we took a holistic approach to design (thinking end-to-end) we would be able to give the teams more time to solve problems by providing a consistent toolbox of components and templates to work in.
+
+We highlighted the journeys and design language used through the current adaptive web experience (separate mobile and desktop codebases) along with the app and email products which had evolved in isolation.
+
+![RC mobile web](/uploads/RC_mobile.png)
+![RC desktop web](/uploads/RC_02.jpg)
+![RC app](/uploads/RC_app.png)
+![RC email](/uploads/RC_email.png)
+
