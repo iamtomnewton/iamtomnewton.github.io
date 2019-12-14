@@ -13,5 +13,6 @@ This make-up was the catalyst for the success of the site by allowing the teams 
 
 This caused a great deal of inconsistency across the website which was reflected in qualitative research that contributed to issues around usability and trust in the product.
 
-![RC_00.png](/uploads/RC_00.png)
+![Rental Cars buttons](/uploads/RC_00.png)
+
 
