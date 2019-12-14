@@ -15,4 +15,5 @@ This caused a great deal of inconsistency across the website which was reflected
 
 ![Rental Cars buttons](/uploads/RC_00.png)
 
-
+With this in mind, we put together a pitch to the leadership team to highlight the discrepancies and frame what this meant to the users while also structuring the discussions around how the current design and development practices were creating waste by having teams re-making components over and over again. 
+The conclusion being that if we took a holistic approach to design (thinking end-to-end) 
