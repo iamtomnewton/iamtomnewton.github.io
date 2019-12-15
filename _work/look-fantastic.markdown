@@ -51,7 +51,9 @@ What I ended up pulling from the user testing was that although the site has som
 To frame the work I put together a hypothesis that highlighted the research and avenues we could explore to help bring the site from bargain basement to established luxury beauty destination.
 
 **Because we saw** users generally like the site and products available but don’t specifically view LookFantastic as a premium beauty brand.
+
 **We believe** tailoring the default Ingenuity experience to be more appealing to the beauty segment.
+
 **Will result in** a bespoke product that will enhance the experience for our users.
 
 ### Art direction
