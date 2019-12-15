@@ -6,7 +6,6 @@ client: Center Parcs
 cover: "/uploads/CenterParcs.jpg"
 background-color: "#7fa022"
 copy: dark
-link: www.centerparcs.co.uk
 layout: work
 ---
 
@@ -47,4 +46,17 @@ Due to my front-end skillset we used <a href="http://centerparcs-patternlab.surg
 
 During our first checkin during this period we put the screens up as we normally would if we were presenting flats, once we talked through the decision points and feedback we moved onto the responsive nature of the design (something new to Center Parcs) of which the majority of the room expected a new set of flats; however, we simply resized the browser to some astonished faces! A very good reaction that got Center Parcs 100% bought into our process.
 
+We continued to evolve the website and due to the rapid nature of our process we were able to include a large number of the experimental features we explored during the sprint processes.
+Everything was tested with users as we went along in labs at various locations across the UK to ensure we sampled a broad range of users.
 
+![CP lab testing](/uploads/CP_07.jpg)
+
+Luckily we were also able to use the Center Parcs locations as labs to gather real time feedback from people who had recently booked through the existing website and for us to understand their painpoints and get great feedback from them around the new features.
+
+![CP onsite](/uploads/CP_08.jpg)
+
+### The new Center Parcs
+
+![CenterParcs.jpg](/uploads/CenterParcs.jpg)
+
+The <a href="http://centerparcs-patternlab.surge.sh/" target="_blank">Pattern Lab</a> is also available to view which will give insights into the atomic structure of the Center Parcs website.
