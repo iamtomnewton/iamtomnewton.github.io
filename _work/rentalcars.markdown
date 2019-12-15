@@ -34,3 +34,6 @@ The initial exercise involved mapping the journey across the main web experience
 This is a small snapshot of the overall journey map that showcases the aforementioned inconsistencies spread to the experience, not just the design language.
 Each row is a separate codebase and website with the columns representing the steps (pages) of the journey. Sections highlighted in orange were deemed to be so different from their counterparts in the other products shown that a simple lift and shift into one experience would cause issues with the coherency of the journey (information and onward journeys in different places etc)
 
+![RC JTBD](/uploads/RC_05.jpg)
+
+The next step was to understand and define the current product. We again invited the product owners from each area (individually) to take part in a jobs workshop where we plotted each user, business and tech requirement onto a wall. This was the first time Rental Cars had a deep map of requirements across the whole product and became a great learning experience for all involved (along with the leadership team).
