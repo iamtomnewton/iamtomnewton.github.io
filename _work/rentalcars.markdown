@@ -25,4 +25,11 @@ We highlighted the journeys and design language used through the current adaptiv
 ![RC app](/uploads/RC_app.png)
 ![RC email](/uploads/RC_email.png)
 
-We secured budget to perform an initial discovery phase to understand and define the current product jobs to be done (from lenses of the user, business and technology), map the journeys and run a design sprint to explore a coherent experience. 
+We secured budget to perform an initial discovery phase to understand and define the current product jobs to be done (from lenses of the user, business and technology), map the journeys and run a design sprint to explore a coherent experience.
+
+The initial exercise involved mapping the journey across the main web experience. To do this we interviewed product owners and designers across the teams that owned parts of this experience to gain a first hand understanding of what each area was doing and where it lead.
+
+![RC journey map](/uploads/RC_03.jpg)
+
+This is a small snapshot of the overall journey map that showcases the aforementioned inconsistencies spread to the experience, not just the design language.
+Each row is a separate codebase and website with the columns representing the steps (pages) of the journey. Sections highlighted in orange were deemed to be so different from their counterparts in the other products shown that a simple lift and shift into one experience would cause issues with the coherency of the journey (information and onward journeys in different places etc)  
