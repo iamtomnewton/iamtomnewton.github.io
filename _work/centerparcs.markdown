@@ -36,3 +36,7 @@ We explored many options for both websites from the radical to the realistic whi
 
 ![CP Aqua Sana prototype](/uploads/CP_03.jpg)
 
+We ran each prototype through lab sessions in-house inviting in some of the customers we interviewed early on and a new set of agnostics. We ran a POINT exercise (**P**ositives, **O**pportunities, **I**ssues and **N**ew **T**hinking) to map the various aspects of feedback into actionable insights.
+
+![CP POINT](/uploads/CP_05.jpg)
+
