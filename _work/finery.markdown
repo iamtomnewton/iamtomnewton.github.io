@@ -19,8 +19,9 @@ A screen and Leap motion sensor were included in the window to enhance the insta
 
 The video below shows the installation in action, with some further detail shots below.
 
-
-<iframe src="https://player.vimeo.com/video/197412516" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<div class="videoWrapper">
+  <iframe src="https://player.vimeo.com/video/197412516" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+</div>
 
 
 [![finery-01.jpg](/uploads/finery-01.jpg)](/uploads/finery-01.jpg)
