@@ -5,9 +5,9 @@ published: false
 cover: "/uploads/LF_Cover.jpg"
 ---
 
-[Look Fantastic](https://www.lookfantastic.com/) is the leading online destination for premium beauty and grooming products in Europe.
+[Look Fantastic](https://www.lookfantastic.com/) is the leading online destination for beauty and grooming products in Europe.
 
-I was asked by The Hut Group (Look Fantastics parent company) to review the current website and provide user experience feedback and art direction for their internal team to build upon to enhance the digital experience for their customers.
+I was asked by The Hut Group (Look Fantastics parent company) to review the current website and provide user experience feedback and art direction for their internal team to build upon to enhance the digital experience for their customers and help move the brands perception towards premium luxury.
 
 ### The users
 
@@ -32,7 +32,21 @@ I also mapped competitors websites against the current Look Fantastic user journ
 
 The next steps were to put the current site through its paces and get insights from real users. To do this I put out remote tests targeting various personas and asked them to complete natural tasks that allowed them to be honest with their feedback.
 
+Here is an example of some of the feedback we received, in general the site was good. It did its job and had a lot of features users really enjoyed such as product reviews.
+
 <iframe src="https://www.youtube.com/watch?v=j7Zsc0wq1_E" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> 
 
+What I ended up pulling from the user testing was that although the site has some great features and a good product selection; users perceived the brand and website in the cheap supermarket bracket (likening it to Superdrug) which was very much the opposite of where the Hut Group wanted to push the experience.
+
 <iframe src="https://www.youtube.com/watch?v=aD_3R7zZxtU" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+### The hypothesis
+
+To frame the work I put together a hypothesis that highlighted the research and avenues we could explore to help bring the site from bargain basement to established luxury beauty destination.
+
+**Because we saw** users generally like the site and products available but don’t specifically view LookFantastic as a premium beauty brand.
+**We believe** tailoring the default Ingenuity experience to be more appealing to the beauty segment.
+**Will result in** a bespoke product that will enhance the experience for our users.
+
+
 
