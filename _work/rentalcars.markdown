@@ -3,7 +3,8 @@ title: Rentalcars
 date: 2019-07-29 09:36:00 +01:00
 position: 0
 client: Rental Cars
-cover: "/uploads/RC_Cover2.jpg"
+cover: "/uploads/RC_Cover.jpg"
+layout: work
 ---
 
 [Rentalcars.com](https://www.rentalcars.com/) is the worlds biggest online car rental service, providing its thousands of daily users access to over 900 car rental companies in 160 countries.
