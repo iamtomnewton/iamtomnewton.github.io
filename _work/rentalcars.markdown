@@ -47,3 +47,21 @@ The team regularly shared its findings by running design critiques at each stage
 
 ![RC design critique](/uploads/RC_07.jpg)
 
+After the initial sprint we had a wide divergence of ideas that had converged to a handful of prototypes that we could test in a local user study lab against a control of the current site. We spoke to a mix of existing customers and those new to the market (planning upcoming trips that may require car hire). 
+During the lab sessions we had various stakeholders attend and ran a POINT exercise (**P**ositives, **O**pportunities, **I**ssues and **N**ew **T**hinking) to map the feedback into actionable insights.
+
+![RC lab testing](/uploads/RC_08.jpg)
+
+We took this feedback into a second sprint and again diverged our thinking to explore the parts of the experiences that had resonated well with users and dig a little deeper into those that hadn't. We ran additional user testing sessions locally and remotely across Europe and in the United States (both prime operating locations for the company).
+
+![RC tests](/uploads/RC_09.jpg)
+
+At the end of these sessions we had tested **15** distinct flows across the Rental Cars user experience and were able to narrow our thinking into one proposed flow and structure for the site.
+
+![RC proposal](/uploads/RC_10.jpg)
+
+This proposal along with the prototypes were fed back to the leadership team that saw real value in the work we had done so far and again signed off further budget to put this work into action. This step was far greater than the initial discovery phase where the proposed roadmaps for teams had been amended to accommodate the design and development planning and work needed to re-platform the site onto our proposal.
+
+To achieve this we again ran further sprints, this time aimed at componentising and redefining the design language used across the proposition to create a MVP design for the new proposal (moving it on from prototype to scoped and defined end-to-end experience). 
+At all stages this again tested with users both qualitatively (in labs and remote testing) and quantitively through A/B experimentation on the current platform.
+
