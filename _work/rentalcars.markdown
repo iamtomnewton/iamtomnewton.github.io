@@ -16,17 +16,17 @@ This make-up was the catalyst for the success of the site by allowing the teams 
 
 This caused a great deal of inconsistency across the website which was reflected in qualitative research that contributed to issues around usability and trust in the product.
 
-![Rental Cars buttons](/uploads/RC_00.png)
+![Rental Cars buttons](/uploads/RC_01.jpg)
 
 With this in mind, we put together a pitch to the leadership team to highlight the discrepancies and frame what this meant to the users while also structuring the discussions around how the current design and development practices were creating waste by having teams re-making components over and over again. 
 The conclusion being that if we took a holistic approach to design (thinking end-to-end) we would be able to give the teams more time to solve problems by providing a consistent toolbox of components and templates to work in.
 
 We highlighted the journeys and design language used through the current adaptive web experience (separate mobile and desktop codebases) along with the app and email products which had evolved in isolation.
 
-![RC mobile web](/uploads/RC_mobile.png)
+![RC mobile web](/uploads/RC_mobile.jpg)
 ![RC desktop web](/uploads/RC_02.jpg)
-![RC app](/uploads/RC_app.png)
-![RC email](/uploads/RC_email.png)
+![RC app](/uploads/RC_app.jpg)
+![RC email](/uploads/RC_email.jpg)
 
 We secured budget to perform an initial discovery phase to understand and define the current product jobs to be done (from lenses of the user, business and technology), map the journeys and run a design sprint to explore a coherent experience.
 
