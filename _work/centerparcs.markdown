@@ -57,6 +57,8 @@ Luckily we were also able to use the Center Parcs locations as labs to gather re
 
 ### The new Center Parcs
 
-![CenterParcs.jpg](/uploads/CenterParcs.jpg)
+The <a href="http://centerparcs-patternlab.surge.sh/" target="_blank">Pattern Lab</a> is available to view which will give insights into the atomic structure of the Center Parcs website. 
 
-The <a href="http://centerparcs-patternlab.surge.sh/" target="_blank">Pattern Lab</a> is also available to view which will give insights into the atomic structure of the Center Parcs website.
+The live site is available at [centerparcs.co.uk](https://www.centerparcs.co.uk/)
+
+![CenterParcs.jpg](/uploads/CenterParcs.jpg)
