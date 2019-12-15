@@ -45,4 +45,6 @@ Due to my front-end skillset we used <a href="http://centerparcs-patternlab.surg
 
 ![CP pattern lab](/uploads/CP_06.jpg)
 
-During our first checkin during this period we put the screens up as we normally would if we were presenting flats, once we talked through the decision points and feedback we moved onto the responsive nature of the design (something new to Center Parcs)
+During our first checkin during this period we put the screens up as we normally would if we were presenting flats, once we talked through the decision points and feedback we moved onto the responsive nature of the design (something new to Center Parcs) of which the majority of the room expected a new set of flats; however, we simply resized the browser to some astonished faces! A very good reaction that got Center Parcs 100% bought into our process.
+
+
