@@ -1,7 +1,7 @@
 ---
 title: Chelsea FC Hospitality
 date: 2016-12-31 11:59:00 +00:00
-position: 9
+position: 10
 client: Chelsea FC
 cover: "/uploads/chelsea.jpg"
 background-color: "#034694"
