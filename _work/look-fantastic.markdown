@@ -55,3 +55,7 @@ Along with competitors, the users mentioned actively subscribing and interacting
 
 ![LF moodboard](/uploads/LF_06.jpg)
 
+The next step was to take this influence and apply it to a suite of style tiles that we could use to gather feedback from users on our possible directions.
+
+![LF style tile](/uploads/LF_07.jpg)
+
