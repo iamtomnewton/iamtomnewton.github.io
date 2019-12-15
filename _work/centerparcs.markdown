@@ -40,3 +40,9 @@ We ran each prototype through lab sessions in-house inviting in some of the cust
 
 ![CP POINT](/uploads/CP_05.jpg)
 
+After the succession of design sprints we combined a lot of the prototype features into one journey that resonated well with all of our personas allowing them to accomplish their various requirements.
+Due to my front-end skillset we used <a href="http://centerparcs-patternlab.surge.sh/" target="_blank">Pattern Lab</a> to create the deliverables which at the time was a radical decision from the perspective of the agency who generally had always provided flats (which is also what Center Parcs expected). 
+
+![CP pattern lab](/uploads/CP_06.jpg)
+
+During our first checkin during this period we put the screens up as we normally would if we were presenting flats, once we talked through the decision points and feedback we moved onto the responsive nature of the design (something new to Center Parcs)
