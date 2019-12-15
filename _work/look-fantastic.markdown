@@ -30,3 +30,9 @@ I also mapped competitors websites against the current Look Fantastic user journ
 
 ![LF journey map](/uploads/LF_04.jpg)
 
+The next steps were to put the current site through its paces and get insights from real users. To do this I put out remote tests targeting various personas and asked them to complete natural tasks that allowed them to be honest with their feedback.
+
+<iframe src="https://www.youtube.com/watch?v=j7Zsc0wq1_E" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> 
+
+<iframe src="https://www.youtube.com/watch?v=aD_3R7zZxtU" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
