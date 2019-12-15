@@ -3,7 +3,7 @@ title: Rentalcars
 date: 2019-07-29 09:36:00 +01:00
 position: 0
 client: Rental Cars
-cover: "/uploads/RC_Cover.jpg"
+cover: "/uploads/RC_Cover2.jpg"
 layout: work
 ---
 
@@ -23,7 +23,6 @@ The conclusion being that if we took a holistic approach to design (thinking end
 
 We highlighted the journeys and design language used through the current adaptive web experience (separate mobile and desktop codebases) along with the app and email products which had evolved in isolation.
 
-![RC mobile web](/uploads/RC_mobile.jpg)
 ![RC desktop web](/uploads/RC_02.jpg)
 ![RC app](/uploads/RC_app.jpg)
 ![RC email](/uploads/RC_email.jpg)
@@ -68,3 +67,6 @@ This proposal along with the prototypes were fed back to the leadership team tha
 To achieve this we again ran further sprints, this time aimed at componentising and redefining the design language used across the proposition to create a MVP design for the new proposal (moving it on from prototype to scoped and defined end-to-end experience). 
 At all stages this again tested with users both qualitatively (in labs and remote testing) and quantitively through A/B experimentation on the current platform.
 
+![RC_Cover2.jpg](/uploads/RC_Cover2.jpg)
+![RC_13.jpg](/uploads/RC_13.jpg)
+![RC_14.jpg](/uploads/RC_14.jpg)
