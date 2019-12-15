@@ -9,4 +9,24 @@ cover: "/uploads/LF_Cover.jpg"
 
 I was asked by The Hut Group (Look Fantastics parent company) to review the current website and provide user experience feedback and art direction for their internal team to build upon to enhance the digital experience for their customers.
 
+### The users
+
+The internal design team tended to use a set of personas based on generic Hut Group users, these personas spanned many different sites and locations which didn't reflect the Look Fantastic userbase directly.
+I started by initially putting together a set of proto-personas that more closely reflected the young and ambitious users for the beauty brand.
+
+![LF proto-personas](/uploads/LF_01.jpg)
+
+To do this I spoke with real users sourced through the Hut Group, I interviewed each and asked what their usual shopping habits were for beauty and grooming products. Looking at where they shopped and their experiences with competitors and Look Fantastic.
+
+![LF user interviews](/uploads/LF_02.jpg)
+
+I put together a set of in-depth personas to help the internal team better understand their userbase and shift their design thinking onto real users opposed to their own opinions.
+
+![LF persona](/uploads/LF_03.jpg)
+
+### The experience
+
+I also mapped competitors websites against the current Look Fantastic user journey to benchmark the experience and highlight potential issues around complexities in the site vs competitors that had streamlined their experiences (something that resonated well with the target demographics).
+
+![LF journey map](/uploads/LF_04.jpg)
 
