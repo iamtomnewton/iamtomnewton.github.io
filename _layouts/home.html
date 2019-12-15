@@ -8,7 +8,7 @@ layout: default
 
   {% for post in collection %}
   <section class="content-block">
-    <a {% if post.link %} href="http://{{ post.link }}"
+    <a {% if post.link %} href="http://{{ post.link }}" target="_blank"
        {% else %} href="{{ post.url }}" {% endif %}>
       <div class="content-block__cover" style="background-color: {{ post.background-color }};  {% if post.cover %} background-image: url( {{ post.cover }} );{% endif %}"></div>
       <!-- <div
