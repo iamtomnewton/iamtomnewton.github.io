@@ -68,3 +68,6 @@ This proposal along with the prototypes were fed back to the leadership team tha
 To achieve this we again ran further sprints, this time aimed at componentising and redefining the design language used across the proposition to create a MVP design for the new proposal (moving it on from prototype to scoped and defined end-to-end experience). 
 At all stages this again tested with users both qualitatively (in labs and remote testing) and quantitively through A/B experimentation on the current platform.
 
+![RC_Cover2.jpg](/uploads/RC_Cover2.jpg)
+![RC_13.jpg](/uploads/RC_13.jpg)
+![RC_14.jpg](/uploads/RC_14.jpg)
