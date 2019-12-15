@@ -3,6 +3,7 @@ title: Look Fantastic
 date: 2019-12-15 20:36:00 +00:00
 cover: "/uploads/LF_Cover.jpg"
 background-color: "#24beb6"
+layout: work
 ---
 
 [Look Fantastic](https://www.lookfantastic.com/) is the leading online destination for beauty and grooming products in Europe.
