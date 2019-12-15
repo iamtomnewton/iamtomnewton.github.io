@@ -1,7 +1,6 @@
 ---
 title: Look Fantastic
 date: 2019-12-15 20:36:00 +00:00
-published: false
 cover: "/uploads/LF_Cover.jpg"
 ---
 
@@ -58,4 +57,16 @@ Along with competitors, the users mentioned actively subscribing and interacting
 The next step was to take this influence and apply it to a suite of style tiles that we could use to gather feedback from users on our possible directions.
 
 ![LF style tile](/uploads/LF_07.jpg)
+
+### The new Look Fantastic
+
+After gathering feedback and testing various user flows I put together a prototype that fleshed out the thinking into a solid grounding for the internal design team to build upon.
+
+![LF_08.jpg](/uploads/LF_08.jpg)
+![LF_09.jpg](/uploads/LF_09.jpg)
+![LF_10.jpg](/uploads/LF_10.jpg)
+![LF_11.jpg](/uploads/LF_11.jpg)
+![LF_12.jpg](/uploads/LF_12.jpg)
+![LF_13.jpg](/uploads/LF_13.jpg)
+
 
