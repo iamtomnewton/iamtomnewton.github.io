@@ -18,6 +18,8 @@ This caused a great deal of inconsistency across the website which was reflected
 
 ![Rental Cars buttons](/uploads/RC_01.jpg)
 
+### The pitch
+
 With this in mind, we put together a pitch to the leadership team to highlight the discrepancies and frame what this meant to the users while also structuring the discussions around how the current design and development practices were creating waste by having teams re-making components over and over again. 
 The conclusion being that if we took a holistic approach to design (thinking end-to-end) we would be able to give the teams more time to solve problems by providing a consistent toolbox of components and templates to work in.
 
@@ -26,6 +28,8 @@ We highlighted the journeys and design language used through the current adaptiv
 ![RC desktop web](/uploads/RC_02.jpg)
 ![RC app](/uploads/RC_app.jpg)
 ![RC email](/uploads/RC_email.jpg)
+
+### Discovery
 
 We secured budget to perform an initial discovery phase to understand and define the current product jobs to be done (from lenses of the user, business and technology), map the journeys and run a design sprint to explore a coherent experience.
 
@@ -40,6 +44,8 @@ Each row is a separate codebase and website with the columns representing the st
 
 The next step was to understand and define the current product. We again invited the product owners from each area to take part in a jobs workshop where we plotted each user, business and tech requirement onto a wall. This was the first time Rental Cars had a deep map of requirements across the whole product and became a great learning experience for all involved (along with the leadership team). 
 We ran **8 sessions** with **40 people** across **19 teams** to define **203 job stories**.
+
+### Design sprints
 
 Once we had a good understanding of the product we moved onto the design sprint where we broke each job into hypothesis and ran workshop exercises to flesh each out into a specific user experience for that task. Along side these sessions we also explored what the ideal car rental experience journey would be, starting from scratch to allow freedom of thought and escape the common mind-set of "my thing needs to be here and do this".
 
@@ -57,6 +63,8 @@ We took this feedback into a second sprint and again diverged our thinking to ex
 
 ![RC tests](/uploads/RC_09.jpg)
 
+### The proposal
+
 At the end of these sessions we had tested **15** distinct flows across the Rental Cars user experience and were able to narrow our thinking into one proposed flow and structure for the site.
 
 ![RC proposal](/uploads/RC_10.jpg)
@@ -66,7 +74,7 @@ This proposal along with the prototypes were fed back to the leadership team tha
 To achieve this we again ran further sprints, this time aimed at componentising and redefining the design language used across the proposition to create a MVP design for the new proposal (moving it on from prototype to scoped and defined end-to-end experience). 
 At all stages this again tested with users both qualitatively (in labs and remote testing) and quantitively through A/B experimentation on the current platform.
 
-### Welcome to the new Rental Cars
+### The new Rental Cars
 
 ![RC_Cover2.jpg](/uploads/RC_Cover2.jpg)
 ![RC_13.jpg](/uploads/RC_13.jpg)
