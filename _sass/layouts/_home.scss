@@ -3,7 +3,7 @@
   height: 90vh;
   position: relative;
   overflow: hidden;
-  @include respond-to-min($small) {
+  @include respond-to-max($small) {
     height: 80vh;
     min-height: 500px;
   }
@@ -43,9 +43,6 @@
 .content-block__copy--dark {
   @extend .content-block__copy;
   color: $text-color;
-  .content-block__title {
-    //text-shadow: 2px 2px 0px #fff;
-  }
 }
 
 .content-block__client {
@@ -56,9 +53,8 @@
 }
 
 .content-block__title {
-  //font-size: remify(55px);
   max-width: 700px;
-  margin-bottom: 0; //text-shadow: 2px 2px 0px $text-color;
+  margin-bottom: 0; 
   @include respond-to-min($med) {
     margin-bottom: $spacing-unit / 2;
   }
