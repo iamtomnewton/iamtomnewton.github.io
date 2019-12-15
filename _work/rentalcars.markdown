@@ -23,7 +23,6 @@ The conclusion being that if we took a holistic approach to design (thinking end
 
 We highlighted the journeys and design language used through the current adaptive web experience (separate mobile and desktop codebases) along with the app and email products which had evolved in isolation.
 
-![RC mobile web](/uploads/RC_mobile.jpg)
 ![RC desktop web](/uploads/RC_02.jpg)
 ![RC app](/uploads/RC_app.jpg)
 ![RC email](/uploads/RC_email.jpg)
