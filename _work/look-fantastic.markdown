@@ -48,5 +48,10 @@ To frame the work I put together a hypothesis that highlighted the research and 
 **We believe** tailoring the default Ingenuity experience to be more appealing to the beauty segment.
 **Will result in** a bespoke product that will enhance the experience for our users.
 
+### Art direction
+
+To create an initial art direction I explored the competitors our initial user panel mentioned using and took a wide view of the design langue being used to appeal to the target personas.
+Along with competitors, the users mentioned actively subscribing and interacting with beauty bloggers as part of their normal beauty shopping routine. As we already understood that Look Fantastic had a great blogging offering onsite, this would be a great opportunity to define a USP that would appeal to the users.
+
 
 
