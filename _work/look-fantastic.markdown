@@ -35,11 +35,11 @@ The next steps were to put the current site through its paces and get insights f
 
 Here is an example of some of the feedback we received, in general the site was good. It did its job and had a lot of features users really enjoyed such as product reviews.
 
-<iframe src="https://www.youtube.com/watch?v=j7Zsc0wq1_E" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> 
+<iframe src="https://www.youtube.com/embed/j7Zsc0wq1_E?controls=0&autoplay=0&rel=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> 
 
 What I ended up pulling from the user testing was that although the site has some great features and a good product selection; users perceived the brand and website in the cheap supermarket bracket (likening it to Superdrug) which was very much the opposite of where the Hut Group wanted to push the experience.
 
-<iframe src="https://www.youtube.com/watch?v=aD_3R7zZxtU" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/aD_3R7zZxtU?controls=0&autoplay=0&rel=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 ### The hypothesis
 
