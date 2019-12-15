@@ -49,8 +49,7 @@ The team regularly shared its findings by running design critiques at each stage
 
 ![RC design critique](/uploads/RC_07.jpg)
 
-After the initial sprint we had a wide divergence of ideas that had converged to a handful of prototypes that we could test in a local user study lab against a control of the current site. We spoke to a mix of existing customers and those new to the market (planning upcoming trips that may require car hire). 
-During the lab sessions we had various stakeholders attend and ran a POINT exercise (**P**ositives, **O**pportunities, **I**ssues and **N**ew **T**hinking) to map the feedback into actionable insights.
+After the initial sprint we had a wide divergence of ideas that had converged to a handful of prototypes that we could test in a local user study lab against a control of the current site. We spoke to a mix of existing customers and those new to the market (planning upcoming trips that may require car hire).
 
 ![RC lab testing](/uploads/RC_08.jpg)
 
