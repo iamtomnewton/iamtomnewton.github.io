@@ -19,16 +19,16 @@
   background-position: center center;
   background-size: cover;
   background-color: $brand-color;
-  -webkit-transition: -webkit-transform 10s ease-in-out;
-  transition: -webkit-transform 10s ease-in-out;
-  transition: transform 10s ease-in-out;
-  transition: transform 10s ease-in-out, -webkit-transform 10s ease-in-out;
-  @include respond-to-min($large) {
-    &:hover {
-      -webkit-transform: scale(1.05);
-      transform: scale(1.05)
-    }
-  }
+  // -webkit-transition: -webkit-transform 15s ease-in-out;
+  // transition: -webkit-transform 15s ease-in-out;
+  // transition: transform 15s ease-in-out;
+  // transition: transform 15s ease-in-out, -webkit-transform 15s ease-in-out;
+  // @include respond-to-min($large) {
+  //   &:hover {
+  //     -webkit-transform: scale(1.05);
+  //     transform: scale(1.05)
+  //   }
+  // }
 }
 
 .content-block__copy {
