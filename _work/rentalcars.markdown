@@ -9,7 +9,7 @@ layout: work
 
 [Rentalcars.com](https://www.rentalcars.com/) is the worlds biggest online car rental service, providing its thousands of daily users access to over 900 car rental companies in 160 countries.
 
-During my time at BookingGo I was responsible for leading the Rentalcars design team. When I arrived the product had gone through many years of micro-optimisation through iterative CRO experiments to make it highly performant.
+During my time at Booking I was responsible for leading the Rentalcars design team.
 
 Design played an important role in the product lifecycle by having talented user experience designers embedded within product teams that consisted of analysts, developers and product owners. These teams were self-sufficient and owned either a page ("search") or part of the holistic user experience ("payment"). 
 This make-up was the catalyst for the success of the site by allowing the teams to solve problems for their users; however, that's precisely what the teams did, they solved problems for only the users of their specific area of the site.
@@ -66,6 +66,8 @@ This proposal along with the prototypes were fed back to the leadership team tha
 
 To achieve this we again ran further sprints, this time aimed at componentising and redefining the design language used across the proposition to create a MVP design for the new proposal (moving it on from prototype to scoped and defined end-to-end experience). 
 At all stages this again tested with users both qualitatively (in labs and remote testing) and quantitively through A/B experimentation on the current platform.
+
+### Welcome to the new Rental Cars
 
 ![RC_Cover2.jpg](/uploads/RC_Cover2.jpg)
 ![RC_13.jpg](/uploads/RC_13.jpg)
