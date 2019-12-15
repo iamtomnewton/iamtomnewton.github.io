@@ -24,3 +24,15 @@ We built up a set of personas that explored each situation and attitude and plot
 
 ![CP Experience Map](/uploads/CP_EM.jpeg)
 
+Once we had a good understanding of our audience and the product requirements we planned a programme of design sprints to explore and test our hypothesis set to define a new Center Parcs experience.
+
+![CP sprint 1](/uploads/CP_01.jpg)
+
+During these sprints we had various Center Parcs stakeholders take part in each session allowing the client to be a part of our design process and ensure their voice was heard and allow them to have their part in the website we created together.
+
+![CP sprint 2](/uploads/CP_02.jpg)
+
+We explored many options for both websites from the radical to the realistic which built upon the existing functionality and concentrated on making a more usable experience to taking the product into new directions by trying out new technology allowing users to view and book real time activities through a mobile itinerary.
+
+![CP Aqua Sana prototype](/uploads/CP_03.jpg)
+
