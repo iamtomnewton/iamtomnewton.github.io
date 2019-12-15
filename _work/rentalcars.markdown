@@ -38,3 +38,12 @@ Each row is a separate codebase and website with the columns representing the st
 
 The next step was to understand and define the current product. We again invited the product owners from each area to take part in a jobs workshop where we plotted each user, business and tech requirement onto a wall. This was the first time Rental Cars had a deep map of requirements across the whole product and became a great learning experience for all involved (along with the leadership team). 
 We ran **8 sessions** with **40 people** across **19 teams** to define **203 job stories**.
+
+Once we had a good understanding of the product we moved onto the design sprint where we broke each job into hypothesis and ran workshop exercises to flesh each out into a specific user experience for that task. Along side these sessions we also explored what the ideal car rental experience journey would be, starting from scratch to allow freedom of thought and escape the common mind-set of "my thing needs to be here and do this".
+
+![RC_06.jpg](/uploads/RC_06.jpg)
+
+The team regularly shared its findings by running design critiques at each stage of the sprint process and opening its doors to the wider company to ensure collaboration and to promote an inclusive mindset for the discovery project.
+
+![RC design critique](/uploads/RC_07.jpg)
+
