@@ -1,6 +1,7 @@
 ---
 title: Look Fantastic
 date: 2019-12-15 20:36:00 +00:00
+position: 2
 cover: "/uploads/LF_Cover.jpg"
 background-color: "#24beb6"
 layout: work

@@ -1,7 +1,7 @@
 ---
 title: Oxfam – Shop Finder
 date: 2017-07-19 23:37:00 +01:00
-position: 7
+position: 8
 client: Oxfam
 cover: "/uploads/oxfam-shop-finder.jpg"
 background-color: "#3f9e11"
