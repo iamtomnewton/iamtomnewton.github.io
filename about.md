@@ -4,7 +4,7 @@ permalink: "/about/"
 layout: page
 ---
 
-I’m a highly-motivated design leader with experience leading cross discipline teams and projects from brief to live product across various web and app platforms. Located in Manchester, I'm currently the Principal Product Designer for [Auto Trader](https://www.autotrader.co.uk/) as well as being on the fantastic [CSSDA](http://www.cssdesignawards.com/) judging panel.
+I’m a highly-motivated design leader with experience leading cross discipline teams and projects from brief to live product across various web and app platforms. Located in Manchester, I'm currently the Principal Product Designer for [Auto Trader](https://www.autotrader.co.uk/).
 
 I have a background in development and lead from a cross discipline mentality, ensuring the product is designed and built harmoniously to reduce waste and provide value with measurable success.
 
