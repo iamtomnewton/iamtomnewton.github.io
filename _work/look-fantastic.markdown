@@ -11,6 +11,8 @@ layout: work
 
 I was asked by The Hut Group (Look Fantastics parent company) to review the current website and provide user experience feedback and art direction for their internal team to build upon to enhance the digital experience for their customers and help move the brands perception towards premium luxury.
 
+![LF_08.jpg](/uploads/LF_Cover.jpg)
+
 ### The users
 
 The internal design team tended to use a set of personas based on generic Hut Group users, these personas spanned many different sites and locations which didn't reflect the Look Fantastic userbase directly.

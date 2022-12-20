@@ -9,19 +9,23 @@ copy: dark
 layout: work
 ---
 
-[Center Parcs](https://www.centerparcs.co.uk/) is the leading UK holiday destination. During my time as lead designer at [Code Computerlove](https://www.codecomputerlove.com/) Center Parcs approached us reinvent their online presence and update a very outdated but heavily used main website along with their secondary Spa website – Aqua Sana.
+[Center Parcs](https://www.centerparcs.co.uk/) is the leading UK holiday destination. 
 
-![CP old site](/uploads/CP_old.png)
+During my time as lead designer at [Code Computerlove](https://www.codecomputerlove.com/) Center Parcs approached us reinvent their online presence and update a very outdated but heavily used main website along with their secondary Spa website – Aqua Sana.
+
+![CP Rapid Prototyping](/uploads/CP_Rapid-prototyping.jpg)
 
 After a successful pitch process we spent time with the Center Parcs team to discuss their requirements and ambitions through workshop sessions and stakeholder interviews on site in Sherwood Forest.
 
 We started the project by getting a deep understanding of the users by speaking with real people. Luckily Center Parcs has a very active customer base who are very open with getting involved with anything Center Parcs!
 We widened our search to also include those who have not been to Center Parcs before but are considering a UK holiday and to get a polarising opinion we also recruited people with an active distaste in Center Parcs to understand why they aren't open to the idea of a UK forest holiday.
 
+![CP Ethnographic study](/uploads/CP_Ethnographic.jpg)
+
 We built up a set of personas that explored each situation and attitude and plotted their real life experiences onto a
 <a href="/uploads/CP_EM.jpeg" target="_blank">user experience map</a>
 
-![CP Experience Map](/uploads/CP_EM.jpeg)
+[![CP Experience Map](/uploads/CP_EM.jpeg)](/uploads/CP_EM.jpeg)
 
 Once we had a good understanding of our audience and the product requirements we planned a programme of design sprints to explore and test our hypothesis set to define a new Center Parcs experience.
 
@@ -40,6 +44,7 @@ We ran each prototype through lab sessions in-house inviting in some of the cust
 ![CP POINT](/uploads/CP_05.jpg)
 
 After the succession of design sprints we combined a lot of the prototype features into one journey that resonated well with all of our personas allowing them to accomplish their various requirements.
+
 Due to my front-end skillset we used <a href="http://centerparcs-patternlab.surge.sh/" target="_blank">Pattern Lab</a> to create the deliverables which at the time was a radical decision from the perspective of the agency who generally had always provided flats (which is also what Center Parcs expected). 
 
 ![CP pattern lab](/uploads/CP_06.jpg)

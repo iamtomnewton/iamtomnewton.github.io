@@ -11,10 +11,11 @@ layout: work
 
 During my time at Booking I was responsible for leading the Rentalcars design team.
 
-Design played an important role in the product lifecycle by having talented user experience designers embedded within product teams that consisted of analysts, developers and product owners. These teams were self-sufficient and owned either a page ("search") or part of the holistic user experience ("payment"). 
-This make-up was the catalyst for the success of the site by allowing the teams to solve problems for their users; however, that's precisely what the teams did, they solved problems for only the users of their specific area of the site.
+![RC_Cover2.jpg](/uploads/RC_Cover2.jpg)
 
-This caused a great deal of inconsistency across the website which was reflected in qualitative research that contributed to issues around usability and trust in the product.
+Design played an important role in the product lifecycle by having talented user experience designers embedded within product teams that consisted of analysts, developers and product owners. These teams were self-sufficient and owned either a page ("search") or part of the holistic user experience ("payment").
+
+This make-up was the catalyst for the success of the site by allowing the teams to solve problems for their users; however, that's precisely what the teams did, they solved problems for only the users of their specific area of the site. But also caused a great deal of inconsistency across the website which was reflected in qualitative research that contributed to issues around usability and trust in the product.
 
 ![Rental Cars buttons](/uploads/RC_01.jpg)
 
