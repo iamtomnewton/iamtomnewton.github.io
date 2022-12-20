@@ -4,9 +4,9 @@ permalink: "/about/"
 layout: page
 ---
 
-I’m a highly-motivated design leader with experience leading cross discipline teams and projects from brief to live product across various web and app platforms. Located in Manchester, I'm currently the Principal Product Designer for [Auto Trader](https://www.autotrader.co.uk/).
+I am a product and design leader with over a decade of agency and in-house experience. I manage and scale design teams while helping to define user-centred business strategies and understand how and where design can provide measurable long-term user and business value. I am currently Head of Design at [Lunar](https://www.lunar.app/en/personal) in Denmark.
 
-I have a background in development and lead from a cross discipline mentality, ensuring the product is designed and built harmoniously to reduce waste and provide value with measurable success.
+I have a background in development and lead from a cross-discipline mentality, ensuring the product is designed and built harmoniously to reduce waste and provide value with measurable success.
 
 I always strive to find the correct answer to optimise the customer experience through workshops, design sprints and rapid prototyping to validate ideas in the hands of real people. 
 
